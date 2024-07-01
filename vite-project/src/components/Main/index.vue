@@ -15,7 +15,9 @@ export default {
 </script>
 
 <template>
-  <div>{{ test }}</div>
+  <div class="main-block">
+    <div class="main-block__wrapper"></div>
+  </div>
 </template>
 
 <style scoped>
