@@ -24,7 +24,7 @@ html {
  * Remove the margin in all browsers.
  */
 
-body, h1, h2, h3, h4, h5, h6, ul, ol, li {
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, span, strong, b, i {
     padding: 0;
     margin: 0;
 }

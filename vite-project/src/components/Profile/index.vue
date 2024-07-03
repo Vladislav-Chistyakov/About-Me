@@ -7,51 +7,310 @@ export default {
 <template>
   <div class="profile-block">
     <div class="profile-block__wrapper">
-      <div class="profile-block__profile-info">
-        <img alt="#" src="#">
-        <h1>Anurag Yadav</h1>
+      <div class="profile-block__profile-info profile-info">
+        <img alt="profile"
+             src="../../assets/profile/profile.png"
+             class="profile-info__img"
+        >
+        <h1 class="profile-info__heading">Anurag Yadav</h1>
       </div>
-      <div class="profile-block__description">
-        <span>
+      <div class="profile-block__description description">
+        <span class="description__span">
           A well-organized, creative and goaloriented graduate possessing excellent communication,
           problem-solving and leadership skills with a flair to explore Computer Science
           Engineering
         </span>
       </div>
-      <div class="profile-block__contacts">
-        <div>
-          <svg></svg>
-          <div>
-            <span></span>
+
+      <ul class="profile-block__contacts-list contacts-list">
+        <li class="contacts-list__item">
+          <svg class="contacts-list__svg" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_7_41)">
+              <rect x="0.404037" y="0.0555573" width="32.2694" height="32.2694" rx="16.1347" fill="#E2E6EE"/>
+              <path d="M23.2615 22.913H9.81592C8.8877 22.913 8.13522 22.1606 8.13522 21.2323V11.0751C8.17439 10.1755 8.91551 9.46661 9.81592 9.46747H23.2615C24.1897 9.46747 24.9422 10.2199 24.9422 11.1482V21.2323C24.9422 22.1606 24.1897 22.913 23.2615 22.913ZM9.81592 12.7179V21.2323H23.2615V12.7179L16.5387 17.1987L9.81592 12.7179ZM10.4882 11.1482L16.5387 15.1818L22.5892 11.1482H10.4882Z" fill="#79819A"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_7_41">
+                <rect x="0.404037" y="0.0555573" width="32.2694" height="32.2694" rx="16.1347" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="contacts-list__block-contact">
+            <p class="contacts-list__description">Email</p>
+            <a class="contacts-list__link" href="mailto:anuragyadavmnp@gmail.com">
+              anuragyadavmnp@gmail.com
+            </a>
             <a></a>
           </div>
-        </div>
-      </div>
-      <div class="profile-block__socials">
-        <div>
-          <svg></svg>
-          <div>
-            <span></span>
-            <a></a>
+        </li>
+
+        <li class="contacts-list__item">
+          <svg class="contacts-list__svg" width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_7_49)">
+              <rect x="0.404037" y="0.942757" width="32.2694" height="32.2694" rx="16.1347" fill="#E2E6EE"/>
+              <path d="M13.5681 24.2498C11.8688 24.2498 10.3368 23.2262 9.68634 21.6563C9.03593 20.0863 9.39519 18.2792 10.5966 17.0774L12.3798 15.2942L13.5681 16.4825L11.7857 18.2648C11.1488 18.9018 10.9 19.8301 11.1332 20.7002C11.3663 21.5702 12.0459 22.2498 12.9159 22.483C13.786 22.7161 14.7144 22.4674 15.3513 21.8304L17.1337 20.0481L18.3219 21.2371L16.5395 23.0195C15.753 23.8099 14.6831 24.2529 13.5681 24.2498ZM14.1622 20.6422L12.974 19.4539L18.9161 13.5118L20.1043 14.7001L14.163 20.6413L14.1622 20.6422ZM20.6993 18.8598L19.5102 17.6715L21.2926 15.8892C21.9382 15.2541 22.1936 14.3216 21.9617 13.4463C21.7298 12.5709 21.0462 11.8871 20.1709 11.655C19.2955 11.4229 18.363 11.6781 17.7278 12.3236L15.9446 14.1059L14.7563 12.9177L16.5395 11.1345C18.1825 9.50586 20.8329 9.51166 22.4687 11.1475C24.1045 12.7833 24.1103 15.4336 22.4817 17.0766L20.6993 18.859V18.8598Z" fill="#79819A"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_7_49">
+                <rect x="0.404037" y="0.942757" width="32.2694" height="32.2694" rx="16.1347" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="contacts-list__block-contact">
+            <p class="contacts-list__description">Website</p>
+            <a class="contacts-list__link" href="https://anuragyadav365.github.io/portfolio.html" target="_blank">
+              https://anuragyadav365.github.io/portfolio.html
+            </a>
           </div>
-        </div>
-      </div>
-      <div class="profile-block__learning">
-        <div>
-          <svg></svg>
-          <div>
-            <span></span>
-            <a></a>
+        </li>
+
+        <li class="contacts-list__item">
+          <svg class="contacts-list__svg" width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_7_57)">
+              <rect x="0.404037" y="0.829956" width="32.2694" height="32.2694" rx="16.1347" fill="#E2E6EE"/>
+              <path d="M22.4191 23.6874C15.2495 23.6976 9.80829 18.1911 9.81596 11.0843C9.81596 10.6202 10.1922 10.2419 10.6563 10.2419H12.8743C13.2907 10.2419 13.6445 10.5478 13.7057 10.9598C13.8522 11.9471 14.1397 12.9082 14.5593 13.8139L14.6456 14.0003C14.7657 14.2595 14.6843 14.5674 14.4519 14.7334C13.765 15.2239 13.5025 16.2113 14.0376 16.9817C14.7091 17.9485 15.5556 18.7948 16.5222 19.466C17.2925 20.001 18.2798 19.7385 18.7703 19.0518C18.9364 18.8192 19.2445 18.7378 19.5038 18.8579L19.6893 18.9438C20.5951 19.3634 21.5563 19.6509 22.5437 19.7974C22.9557 19.8585 23.2615 20.2123 23.2615 20.6288V22.8471C23.2615 23.3112 22.8844 23.6874 22.4202 23.6874L22.4191 23.6874Z" fill="#79819A"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_7_57">
+                <rect x="0.404037" y="0.829956" width="32.2694" height="32.2694" rx="16.1347" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="contacts-list__block-contact">
+            <p class="contacts-list__description">Phone</p>
+            <a class="contacts-list__link" href="tel:+919815533309">(+91) 981 5533 309</a>
           </div>
-        </div>
-      </div>
-      <div class="profile-block__hobbies">
-        <div>
-          <svg></svg>
-          <p></p>
-        </div>
+        </li>
+
+        <li class="contacts-list__item">
+          <svg class="contacts-list__svg" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_7_65)">
+              <rect x="0.404037" y="0.0656433" width="32.2694" height="32.2694" rx="16.1347" fill="#E2E6EE"/>
+              <path d="M16.5387 23.7634C15.4773 22.8581 14.4935 21.8655 13.5975 20.7962C12.2529 19.1903 10.6563 16.7986 10.6563 14.5196C10.6551 12.1394 12.0884 9.99299 14.2875 9.08206C16.4865 8.17113 19.0178 8.6752 20.7001 10.3591C21.8064 11.4604 22.4261 12.9586 22.4212 14.5196C22.4212 16.7986 20.8245 19.1903 19.4799 20.7962C18.584 21.8655 17.6001 22.8581 16.5387 23.7634ZM16.5387 11.9986C15.638 11.9986 14.8058 12.4791 14.3554 13.2591C13.9051 14.0391 13.9051 15.0001 14.3554 15.7801C14.8058 16.5602 15.638 17.0407 16.5387 17.0407C17.9311 17.0407 19.0598 15.912 19.0598 14.5196C19.0598 13.1273 17.9311 11.9986 16.5387 11.9986Z" fill="#79819A"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_7_65">
+                <rect x="0.404037" y="0.0656433" width="32.2694" height="32.2694" rx="16.1347" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <div class="contacts-list__block-contact">
+            <p class="contacts-list__description">Address</p>
+            <a class="contacts-list__link">Hallomajra, Chandigarh, India</a>
+          </div>
+        </li>
+      </ul>
+      <div class="profile-block__socials socials">
+        <h4 class="socials__heading">Socials</h4>
+
+        <ul class="socials__list">
+          <li class="socials__item">
+            <svg class="socials__svg" width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.404037" y="0.814758" width="32.2694" height="32.2694" rx="16.1347" fill="url(#paint0_radial_7_77)"/>
+              <rect x="0.404037" y="0.814758" width="32.2694" height="32.2694" rx="16.1347" fill="url(#paint1_radial_7_77)" fill-opacity="0.2"/>
+              <path d="M13.1781 16.9498C13.1781 15.0934 14.6827 13.588 16.5391 13.588C18.3956 13.588 19.9009 15.0934 19.9009 16.9498C19.9009 18.8063 18.3956 20.3116 16.5391 20.3116C14.6827 20.3116 13.1781 18.8063 13.1781 16.9498V16.9498ZM11.3608 16.9498C11.3608 19.8098 13.6791 22.1282 16.5391 22.1282C19.3991 22.1282 21.7174 19.8098 21.7174 16.9498C21.7174 14.0899 19.3991 11.7715 16.5391 11.7715C13.6791 11.7715 11.3609 14.0897 11.3609 16.9498H11.3608ZM20.7124 11.5662C20.7123 11.8056 20.7831 12.0396 20.916 12.2386C21.0489 12.4377 21.2379 12.5929 21.459 12.6845C21.6801 12.7762 21.9234 12.8003 22.1581 12.7537C22.3929 12.7071 22.6086 12.5919 22.7779 12.4227C22.9472 12.2536 23.0625 12.038 23.1093 11.8033C23.1561 11.5685 23.1322 11.3252 23.0407 11.104C22.9492 10.8829 22.7942 10.6938 22.5952 10.5608C22.3963 10.4277 22.1623 10.3566 21.923 10.3565H21.9225C21.6017 10.3567 21.294 10.4842 21.0671 10.711C20.8402 10.9378 20.7126 11.2454 20.7124 11.5662V11.5662ZM12.465 25.1585C11.4817 25.1138 10.9473 24.95 10.5922 24.8116C10.1214 24.6283 9.78544 24.41 9.43224 24.0573C9.07904 23.7046 8.8604 23.369 8.67791 22.8981C8.53947 22.5432 8.3757 22.0086 8.331 21.0254C8.28211 19.9624 8.27235 19.6431 8.27235 16.95C8.27235 14.2569 8.28292 13.9385 8.331 12.8746C8.37578 11.8914 8.54076 11.3579 8.67791 11.0019C8.86121 10.5311 9.07952 10.1951 9.43224 9.84191C9.78496 9.48871 10.1206 9.27007 10.5922 9.08758C10.9472 8.94914 11.4817 8.78537 12.465 8.74067C13.5279 8.69178 13.8473 8.68202 16.5391 8.68202C19.231 8.68202 19.5506 8.69243 20.6145 8.74084C21.5977 8.78561 22.1312 8.95059 22.4872 9.08775C22.9581 9.27024 23.294 9.48935 23.6472 9.84207C24.0004 10.1948 24.2182 10.5312 24.4015 11.002C24.54 11.357 24.7038 11.8916 24.7485 12.8748C24.7973 13.9387 24.8071 14.2571 24.8071 16.9502C24.8071 19.6432 24.7973 19.9617 24.7485 21.0255C24.7037 22.0088 24.5391 22.5432 24.4015 22.8983C24.2182 23.3691 23.9999 23.7051 23.6472 24.0575C23.2945 24.4099 22.9581 24.6285 22.4872 24.8118C22.1323 24.9502 21.5977 25.114 20.6145 25.1587C19.5515 25.2076 19.2322 25.2173 16.5391 25.2173C13.8461 25.2173 13.5276 25.2076 12.465 25.1587V25.1585ZM12.3815 6.92634C11.3079 6.97523 10.5743 7.14545 9.93364 7.39475C9.27056 7.65218 8.70849 7.99756 8.14722 8.55794C7.58595 9.11832 7.24146 9.68048 6.98402 10.3444C6.73473 10.9854 6.56451 11.7186 6.51562 12.7922C6.46592 13.8674 6.45454 14.2112 6.45454 16.9498C6.45454 19.6885 6.46592 20.0323 6.51562 21.1075C6.56451 22.1812 6.73473 22.9143 6.98402 23.5553C7.24146 24.2184 7.58603 24.7816 8.14722 25.3417C8.70841 25.9019 9.26976 26.2468 9.93364 26.5049C10.5755 26.7542 11.3079 26.9245 12.3815 26.9734C13.4573 27.0222 13.8005 27.0344 16.5391 27.0344C19.2778 27.0344 19.6215 27.0231 20.6968 26.9734C21.7704 26.9245 22.5035 26.7542 23.1446 26.5049C23.8077 26.2468 24.3698 25.9021 24.931 25.3417C25.4923 24.7814 25.8361 24.2184 26.0942 23.5553C26.3435 22.9143 26.5145 22.1811 26.5626 21.1075C26.6115 20.0315 26.6229 19.6885 26.6229 16.9498C26.6229 14.2112 26.6115 13.8674 26.5626 12.7922C26.5137 11.7185 26.3435 10.985 26.0942 10.3444C25.8361 9.68128 25.4914 9.11921 24.931 8.55794C24.3706 7.99667 23.8077 7.65218 23.1454 7.39475C22.5035 7.14545 21.7704 6.97442 20.6976 6.92634C19.6222 6.87721 19.2786 6.86526 16.5403 6.86526C13.8021 6.86526 13.4577 6.87664 12.3819 6.92634" fill="white"/>
+              <defs>
+                <radialGradient id="paint0_radial_7_77" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.49248 32.3772) scale(40.9701)">
+                  <stop offset="0.09" stop-color="#FA8F21"/>
+                  <stop offset="0.78" stop-color="#D82D7E"/>
+                </radialGradient>
+                <radialGradient id="paint1_radial_7_77" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.5387 32.0757) scale(25.2104)">
+                  <stop offset="0.713542" stop-color="#8C3AAA" stop-opacity="0"/>
+                  <stop offset="1" stop-color="#8C3AAA"/>
+                </radialGradient>
+              </defs>
+            </svg>
+            <div class="socials__block">
+              <span class="socials__span">Instagram</span>
+              <a class="socials__link" href="#">@anurag.yadav.007</a>
+            </div>
+          </li>
+
+          <li class="socials__item">
+            <svg class="socials__svg" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.404037" y="0.0167847" width="32.2694" height="32.2694" rx="16.1347" fill="white"/>
+              <path d="M17.1421 5.05887C11.2408 5.05887 6.45454 9.84423 6.45454 15.7464C6.45454 20.4686 9.51653 24.4746 13.764 25.8881C14.2974 25.9869 14.4702 25.6556 14.4702 25.3742V23.3845C11.4973 24.0311 10.8783 22.1234 10.8783 22.1234C10.392 20.8881 9.6911 20.5594 9.6911 20.5594C8.7212 19.8959 9.76502 19.9101 9.76502 19.9101C10.8382 19.985 11.4029 21.0119 11.4029 21.0119C12.3559 22.6453 13.9029 22.1732 14.513 21.8998C14.6083 21.2096 14.8853 20.7375 15.1916 20.4712C12.8181 20.1996 10.3226 19.2831 10.3226 15.1889C10.3226 14.0213 10.7403 13.0683 11.4234 12.3202C11.3129 12.0503 10.9469 10.9629 11.5276 9.49154C11.5276 9.49154 12.4253 9.20476 14.4676 10.587C15.3199 10.3501 16.2337 10.2317 17.1421 10.2272C18.0506 10.2317 18.9652 10.3501 19.8194 10.587C21.8598 9.20476 22.7558 9.49154 22.7558 9.49154C23.3373 10.9638 22.9713 12.0512 22.8609 12.3202C23.5466 13.0683 23.9608 14.0222 23.9608 15.1889C23.9608 19.2938 21.4608 20.1978 19.081 20.4623C19.464 20.7937 19.814 21.4438 19.814 22.4413V25.3742C19.814 25.6583 19.985 25.9923 20.5274 25.8872C24.7713 24.472 27.8297 20.4668 27.8297 15.7464C27.8297 9.84423 23.0443 5.05887 17.1421 5.05887Z" fill="#24292E"/>
+            </svg>
+            <div class="socials__block">
+              <span class="socials__span">Github</span>
+              <a class="socials__link">@anuragyadav365</a>
+            </div>
+          </li>
+
+          <li class="socials__item">
+            <svg class="socials__svg" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.2573 5.88958C18.0106 5.43923 18.5743 4.7301 18.843 3.8946C18.1352 4.3146 17.3607 4.61047 16.5531 4.7694C15.4334 3.58495 13.6594 3.29671 12.2223 4.06574C10.7852 4.83477 10.0408 6.47067 10.4051 8.05936C7.50558 7.91379 4.80416 6.54414 2.97307 4.29124C2.01746 5.93952 2.5058 8.04657 4.08906 9.10643C3.51653 9.08803 2.95671 8.93302 2.45626 8.65433C2.45626 8.66945 2.45626 8.68458 2.45626 8.69971C2.45659 10.4167 3.66667 11.8956 5.34958 12.2359C4.81853 12.3804 4.2615 12.4016 3.72098 12.2981C4.19427 13.7664 5.54752 14.7723 7.08994 14.8023C5.81247 15.805 4.23484 16.3487 2.61088 16.346C2.32304 16.3464 2.03542 16.3299 1.74953 16.2965C3.39862 17.3562 5.31795 17.9186 7.27818 17.9166C10.0053 17.9354 12.6262 16.8602 14.5545 14.9317C16.4829 13.0032 17.5578 10.3823 17.5388 7.65515C17.5388 7.49885 17.5352 7.34338 17.5279 7.18876C18.2342 6.67833 18.8437 6.04601 19.3279 5.32151C18.6699 5.61316 17.972 5.80464 17.2573 5.88958Z" fill="white"/>
+            </svg>
+            <div class="socials__block">
+              <span class="socials__span">Twitter</span>
+              <a class="socials__link">@anuragmnp</a>
+            </div>
+          </li>
+
+          <li class="socials__item">
+            <svg class="socials__svg" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.3791 18.1186H8.01767V8.03446H11.3791V9.71515C12.0956 8.80359 13.1821 8.26015 14.3413 8.23362C16.4259 8.24519 18.1079 9.94153 18.1019 12.0261V18.1186H14.7405V12.4463C14.606 11.5073 13.8007 10.8106 12.8522 10.8126C12.4373 10.8258 12.0457 11.0074 11.7677 11.3157C11.4897 11.624 11.3494 12.0322 11.3791 12.4463V18.1186ZM6.33698 18.1186H2.97559V8.03446H6.33698V18.1186ZM4.65628 6.35376C3.72806 6.35376 2.97559 5.60129 2.97559 4.67307C2.97559 3.74484 3.72806 2.99237 4.65628 2.99237C5.5845 2.99237 6.33698 3.74484 6.33698 4.67307C6.33698 5.11881 6.1599 5.54631 5.84471 5.8615C5.52952 6.17669 5.10203 6.35376 4.65628 6.35376Z" fill="white"/>
+            </svg>
+            <div class="socials__block">
+              <span class="socials__span">Linkedin</span>
+              <a class="socials__link">@anuragyadav</a>
+            </div>
+          </li>
+        </ul>
       </div>
 
+      <div class="profile-block__learning learning">
+        <h4 class="learning__heading">Languages</h4>
+        <ul class="learning__list">
+          <li class="learning__item">
+            <svg class="learning__svg" width="65" height="57" viewBox="0 0 65 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_7_108)">
+                <g clip-path="url(#clip0_7_108)">
+                  <rect x="16.404" y="12.2037" width="32.2694" height="24.202" fill="#E1E7FE"/>
+                  <mask id="mask0_7_108" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="16" y="12" width="33" height="25">
+                    <rect x="16.404" y="12.2037" width="32.2694" height="24.202" fill="white"/>
+                  </mask>
+                  <g mask="url(#mask0_7_108)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 12.2037V36.4057H48.6734V12.2037H16.404Z" fill="#F7FCFF"/>
+                    <mask id="mask1_7_108" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="16" y="12" width="33" height="25">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 12.2037V36.4057H48.6734V12.2037H16.404Z" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask1_7_108)">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 12.2037V20.271H48.6734V12.2037H16.404Z" fill="#FF8C1A"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 28.3384V36.4057H48.6734V28.3384H16.404Z" fill="#5EAA22"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5051 24.3047C28.5051 26.5324 30.311 28.3383 32.5387 28.3383C34.7665 28.3383 36.5724 26.5324 36.5724 24.3047C36.5724 22.0769 34.7665 20.271 32.5387 20.271C30.311 20.271 28.5051 22.0769 28.5051 24.3047ZM35.564 24.3047C35.564 25.9755 34.2095 27.3299 32.5387 27.3299C30.8679 27.3299 29.5135 25.9755 29.5135 24.3047C29.5135 22.6339 30.8679 21.2794 32.5387 21.2794C34.2095 21.2794 35.564 22.6339 35.564 24.3047Z" fill="#3D58DB"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.5332 25.1726L31.6922 28.2722L32.1847 25.0985L30.1557 27.5881L31.8964 24.8891L29.0303 26.3382L31.7183 24.5806L28.5105 24.7386L31.6811 24.2262L28.6863 23.0659L31.7912 23.8874L29.5273 21.6093L32.0296 23.6226L30.888 20.6207L32.355 23.4777L32.5332 20.271L32.7113 23.4777L34.1784 20.6207L33.0368 23.6226L35.5391 21.6093L33.2752 23.8874L36.38 23.0659L33.3853 24.2262L36.5558 24.7386L33.3481 24.5806L36.0361 26.3382L33.1699 24.8891L34.9107 27.5881L32.8817 25.0985L33.3741 28.2722L32.5332 25.1726Z" fill="#3D58DB"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <defs>
+                <filter id="filter0_d_7_108" x="0.269358" y="0.102664" width="64.5387" height="56.4714" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset dy="4.03367"/>
+                  <feGaussianBlur stdDeviation="8.06734"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_108"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_108" result="shape"/>
+                </filter>
+                <clipPath id="clip0_7_108">
+                  <rect x="16.404" y="12.2037" width="32.2694" height="24.202" rx="4.03367" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+
+            <div class="learning__block">
+              <span class="learning__span">Hindi</span>
+              <p class="learning__description">Native</p>
+            </div>
+          </li>
+
+          <li class="learning__item">
+            <svg class="learning__svg" width="33" height="25" viewBox="0 0 33 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_7_129)">
+                <mask id="mask0_7_129" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-3" y="-2" width="39" height="29">
+                  <path d="M31.777 -1.61115H1.3004C-0.679804 -1.61115 -2.28508 0.0743948 -2.28508 2.15361V22.8598C-2.28508 24.939 -0.679804 26.6245 1.3004 26.6245H31.777C33.7572 26.6245 35.3625 24.939 35.3625 22.8598V2.15361C35.3625 0.0743948 33.7572 -1.61115 31.777 -1.61115Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_7_129)">
+                  <path d="M31.777 -1.61115H1.3004C-0.679804 -1.61115 -2.28508 0.0743948 -2.28508 2.15361V22.8598C-2.28508 24.939 -0.679804 26.6245 1.3004 26.6245H31.777C33.7572 26.6245 35.3625 24.939 35.3625 22.8598V2.15361C35.3625 0.0743948 33.7572 -1.61115 31.777 -1.61115Z" fill="#22438B"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.09314 0.27124L-0.538956 0.320182L-0.492344 4.036L29.952 24.7949L33.6038 24.7252L33.5357 21.032L3.09314 0.27124Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.3004 0.27124L-0.49234 2.15362L31.777 24.7422L33.5698 22.8598L1.3004 0.27124Z" fill="#C7152A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9843 0.27124H33.5698V4.036C33.5698 4.036 12.505 17.9581 3.12541 24.7949C3.01247 24.8777 -0.456485 24.8005 -0.456485 24.8005L-0.73436 21.2221L29.9843 0.27124Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.8541 0.218506L33.5698 2.15359L1.3004 24.7421L-0.49234 22.8598L31.8541 0.218506Z" fill="#C7152A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0569 0.27124H21.0206V7.80076H33.5698V17.2127H21.0206V24.7422H12.0569V17.2127H-0.49234V7.80076H12.0569V0.27124Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8496 0.27124H19.2278V9.68314H33.5698V15.3303H19.2278V24.7422H13.8496V15.3303H-0.49234V9.68314H13.8496V0.27124Z" fill="#C7152A"/>
+                  <path d="M31.777 -0.669983H1.3004C-0.184761 -0.669983 -1.38872 0.594172 -1.38872 2.15359V22.8598C-1.38872 24.4192 -0.184761 25.6833 1.3004 25.6833H31.777C33.2622 25.6833 34.4661 24.4192 34.4661 22.8598V2.15359C34.4661 0.594172 33.2622 -0.669983 31.777 -0.669983Z" stroke="black" stroke-opacity="0.1" stroke-width="2.01683"/>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_7_129">
+                  <rect width="37.6476" height="28.2357" fill="white" transform="translate(-2.28508 -1.61115)"/>
+                </clipPath>
+              </defs>
+            </svg>
+
+            <div class="learning__block">
+              <span class="learning__span">English</span>
+              <p class="learning__description">Professional working</p>
+            </div>
+          </li>
+
+          <li class="learning__item">
+            <svg class="learning__svg" width="33" height="25" viewBox="0 0 33 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_7_146)">
+                <mask id="mask0_7_146" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="25">
+                  <path d="M29.6001 0.607727H3.47731C1.77999 0.607727 0.404037 2.05248 0.404037 3.83466V21.5828C0.404037 23.365 1.77999 24.8097 3.47731 24.8097H29.6001C31.2974 24.8097 32.6734 23.365 32.6734 21.5828V3.83466C32.6734 2.05248 31.2974 0.607727 29.6001 0.607727Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_7_146)">
+                  <path d="M29.6001 0.607727H3.47731C1.77999 0.607727 0.404037 2.05248 0.404037 3.83466V21.5828C0.404037 23.365 1.77999 24.8097 3.47731 24.8097H29.6001C31.2974 24.8097 32.6734 23.365 32.6734 21.5828V3.83466C32.6734 2.05248 31.2974 0.607727 29.6001 0.607727Z" fill="#CD0B20"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.404037 7.06158H32.6734V18.3559H0.404037V7.06158Z" fill="#FFCB00"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2338 10.6467V14.7127C14.2338 15.8421 13.2012 16.7456 11.9288 16.7456H8.85555C7.58629 16.7424 6.5506 15.834 6.5506 14.7094V10.6435C6.5506 9.72059 7.23901 8.94936 8.18558 8.69927C8.47139 7.86027 9.35035 8.61214 10.3922 8.61214C11.4402 8.61214 12.313 7.86511 12.5988 8.70088C13.5423 8.95742 14.2338 9.73028 14.2338 10.6467Z" fill="#C8B47C"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2338 11.902H15.7704V16.7424H14.2338V11.902ZM5.01396 11.902H6.5506V16.7424H5.01396V11.902Z" fill="#B5B5B5"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2338 15.1289H15.7704V16.7424H14.2338V15.1289ZM5.01396 15.1289H6.5506V16.7424H5.01396V15.1289Z" fill="#165C96"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M14.2338 10.2885H15.7704V11.902H14.2338V10.2885ZM5.01396 10.2885H6.5506V11.902H5.01396V10.2885Z" fill="#A0790A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.08722 10.2885H9.62386V12.7087H8.08722V10.2885ZM11.1605 13.5154H12.6971V15.9357H11.1605V13.5154Z" fill="#D20636"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.1605 10.2885H12.6971V12.7087H11.1605V10.2885Z" fill="#A18793"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.08722 13.5154H9.62385V15.9356H8.08722V13.5154Z" fill="#FFE100"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.62386 10.2885L8.08722 8.67505H12.6971L11.1605 10.2885H9.62386Z" fill="#B6161A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.62386 7.06158H11.1605V8.67505H9.62386V7.06158Z" fill="#AC9300"/>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_7_146">
+                  <rect width="32.2694" height="24.202" fill="white" transform="translate(0.404037 0.607727)"/>
+                </clipPath>
+              </defs>
+            </svg>
+
+            <div class="learning__block">
+              <span class="learning__span">Spanish</span>
+              <p class="learning__description">Elementary</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile-block__hobbies hobbies">
+        <h4 class="hobbies__heading">Hobbies & Interests</h4>
+
+        <ul class="hobbies__list">
+          <li class="hobbies__item">
+            <svg class="hobbies__svg" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="17.5471" cy="17.2727" r="12.8573" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M13.9757 21.6396V12.9057C13.9757 11.7437 15.2891 11.0678 16.2346 11.7432L22.3483 16.1102C23.146 16.6799 23.146 17.8654 22.3483 18.4351L16.2346 22.8021C15.2891 23.4775 13.9757 22.8016 13.9757 21.6396Z" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="hobbies__description">Gaming</p>
+          </li>
+
+          <li class="hobbies__item">
+            <svg class="hobbies__svg" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="17.5471" cy="17.6935" r="12.8573" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18.9757 4.90491C18.4785 5.32333 18.0306 5.81712 17.6495 6.38286C15.4455 9.65469 16.3111 14.0937 19.583 16.2978C19.8412 16.4717 20.1068 16.6266 20.3779 16.7626C23.2614 18.2095 24.3623 16.2594 25.9235 17.3111C26.9362 17.9933 27.2042 19.3673 26.522 20.38C25.8071 21.4413 24.69 21.9793 24.8833 23.7176C24.9924 24.6987 25.5951 25.5442 26.3761 26.2651" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6.11839 13.8078C7.66396 14.1839 9.09415 15.0761 10.127 16.4448C11.228 17.9038 11.6844 19.6484 11.544 21.337C11.4696 22.2313 12.0528 23.134 12.8033 23.626C13.166 23.8637 13.4945 24.1668 13.7707 24.5328C14.9936 26.1534 14.7496 28.4237 13.2613 29.7519" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="hobbies__description">Travelling</p>
+          </li>
+
+          <li class="hobbies__item">
+            <svg class="hobbies__svg" width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.11839 25.2573C6.11839 22.8904 8.0372 20.9716 10.4042 20.9716V20.9716C12.7711 20.9716 14.6899 22.8904 14.6899 25.2573V25.2573C14.6899 27.6243 12.7711 29.5431 10.4042 29.5431H6.68538C6.37224 29.5431 6.11839 29.2893 6.11839 28.9761V27.4002V25.2573V25.2573Z" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M11.8328 20.6204L22.6755 8.57291C23.7706 7.35616 25.662 7.30642 26.8196 8.46394L27.0086 8.65297L27.1976 8.842C28.3551 9.99952 28.3054 11.891 27.0887 12.9861L15.0412 23.8288" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="hobbies__description">Sketching/Graffitti</p>
+          </li>
+
+          <li class="hobbies__item">
+            <svg class="hobbies__svg" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6.11839" y="6.10657" width="22.8575" height="22.8575" rx="4.28577" stroke="black" stroke-width="2.85718" stroke-linecap="round"/>
+              <path d="M6.11839 20.3925H13.2613" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21.8329 20.3925H28.9759" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21.5745 20.4297C21.2728 21.2586 20.7227 21.9742 19.9992 22.4789C19.2758 22.9835 18.4143 23.2527 17.5322 23.2496C16.6501 23.2465 15.7905 22.9714 15.0706 22.4617C14.3507 21.9519 13.8056 21.2325 13.5097 20.4015" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p class="hobbies__description">Blogging</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -62,6 +321,99 @@ export default {
     background: #F7F9FC;
     .profile-block__wrapper {
       padding: 48px;
+
+      .profile-info {
+        .profile-info__img {
+        }
+
+        .profile-info__heading {
+        }
+      }
+
+      .description {
+        .description__span {
+        }
+      }
+
+      .contacts-list {
+        .contacts-list__item {
+        }
+
+        .contacts-list__svg {
+        }
+
+        .contacts-list__block-contact {
+        }
+
+        .contacts-list__description {
+        }
+
+        .contacts-list__link {
+        }
+      }
+
+      .socials {
+        .socials__heading {
+        }
+
+        .socials__list {
+        }
+
+        .socials__item {
+        }
+
+        .socials__svg {
+        }
+
+        .socials__block {
+        }
+
+        .socials__span {
+        }
+
+        .socials__link {
+        }
+      }
+
+      .learning {
+        .learning__heading {
+        }
+
+        .learning__list {
+        }
+
+        .learning__item {
+        }
+
+        .learning__svg {
+        }
+
+        .learning__block {
+        }
+
+        .learning__span {
+        }
+
+        .learning__description {
+        }
+      }
+
+      .hobbies {
+        .hobbies__heading {
+        }
+
+        .hobbies__list {
+        }
+
+        .hobbies__item {
+        }
+
+        .hobbies__svg {
+        }
+
+        .hobbies__description {
+        }
+      }
     }
   }
 </style>
