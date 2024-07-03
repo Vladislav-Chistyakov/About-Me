@@ -15,14 +15,14 @@ export default {
         <h1 class="profile-info__heading">Anurag Yadav</h1>
       </div>
       <div class="profile-block__description description">
-        <span class="description__span">
+        <span class="description__span text-medium">
           A well-organized, creative and goaloriented graduate possessing excellent communication,
           problem-solving and leadership skills with a flair to explore Computer Science
           Engineering
         </span>
       </div>
 
-      <ul class="profile-block__contacts-list contacts-list">
+      <ul class="profile-block__contacts-list contacts-list border-block">
         <li class="contacts-list__item">
           <svg class="contacts-list__svg" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_7_41)">
@@ -36,8 +36,8 @@ export default {
             </defs>
           </svg>
           <div class="contacts-list__block-contact">
-            <p class="contacts-list__description">Email</p>
-            <a class="contacts-list__link" href="mailto:anuragyadavmnp@gmail.com">
+            <p class="contacts-list__description text-regular">Email</p>
+            <a class="contacts-list__link text-medium" href="mailto:anuragyadavmnp@gmail.com">
               anuragyadavmnp@gmail.com
             </a>
             <a></a>
@@ -56,9 +56,9 @@ export default {
               </clipPath>
             </defs>
           </svg>
-          <div class="contacts-list__block-contact">
+          <div class="contacts-list__block-contact text-regular">
             <p class="contacts-list__description">Website</p>
-            <a class="contacts-list__link" href="https://anuragyadav365.github.io/portfolio.html" target="_blank">
+            <a class="contacts-list__link text-medium" href="https://anuragyadav365.github.io/portfolio.html" target="_blank">
               https://anuragyadav365.github.io/portfolio.html
             </a>
           </div>
@@ -76,9 +76,9 @@ export default {
               </clipPath>
             </defs>
           </svg>
-          <div class="contacts-list__block-contact">
+          <div class="contacts-list__block-contact text-regular">
             <p class="contacts-list__description">Phone</p>
-            <a class="contacts-list__link" href="tel:+919815533309">(+91) 981 5533 309</a>
+            <a class="contacts-list__link text-medium" href="tel:+919815533309">(+91) 981 5533 309</a>
           </div>
         </li>
 
@@ -94,14 +94,14 @@ export default {
               </clipPath>
             </defs>
           </svg>
-          <div class="contacts-list__block-contact">
+          <div class="contacts-list__block-contact text-regular">
             <p class="contacts-list__description">Address</p>
-            <a class="contacts-list__link">Hallomajra, Chandigarh, India</a>
+            <a class="contacts-list__link text-medium" href="#">Hallomajra, Chandigarh, India</a>
           </div>
         </li>
       </ul>
-      <div class="profile-block__socials socials">
-        <h4 class="socials__heading">Socials</h4>
+      <div class="profile-block__socials socials border-block">
+        <h4 class="socials__heading text-regular">Socials</h4>
 
         <ul class="socials__list">
           <li class="socials__item">
@@ -121,8 +121,8 @@ export default {
               </defs>
             </svg>
             <div class="socials__block">
-              <span class="socials__span">Instagram</span>
-              <a class="socials__link" href="#">@anurag.yadav.007</a>
+              <span class="socials__span text-regular">Instagram</span>
+              <a class="socials__link text-medium" href="#">@anurag.yadav.007</a>
             </div>
           </li>
 
@@ -132,77 +132,58 @@ export default {
               <path d="M17.1421 5.05887C11.2408 5.05887 6.45454 9.84423 6.45454 15.7464C6.45454 20.4686 9.51653 24.4746 13.764 25.8881C14.2974 25.9869 14.4702 25.6556 14.4702 25.3742V23.3845C11.4973 24.0311 10.8783 22.1234 10.8783 22.1234C10.392 20.8881 9.6911 20.5594 9.6911 20.5594C8.7212 19.8959 9.76502 19.9101 9.76502 19.9101C10.8382 19.985 11.4029 21.0119 11.4029 21.0119C12.3559 22.6453 13.9029 22.1732 14.513 21.8998C14.6083 21.2096 14.8853 20.7375 15.1916 20.4712C12.8181 20.1996 10.3226 19.2831 10.3226 15.1889C10.3226 14.0213 10.7403 13.0683 11.4234 12.3202C11.3129 12.0503 10.9469 10.9629 11.5276 9.49154C11.5276 9.49154 12.4253 9.20476 14.4676 10.587C15.3199 10.3501 16.2337 10.2317 17.1421 10.2272C18.0506 10.2317 18.9652 10.3501 19.8194 10.587C21.8598 9.20476 22.7558 9.49154 22.7558 9.49154C23.3373 10.9638 22.9713 12.0512 22.8609 12.3202C23.5466 13.0683 23.9608 14.0222 23.9608 15.1889C23.9608 19.2938 21.4608 20.1978 19.081 20.4623C19.464 20.7937 19.814 21.4438 19.814 22.4413V25.3742C19.814 25.6583 19.985 25.9923 20.5274 25.8872C24.7713 24.472 27.8297 20.4668 27.8297 15.7464C27.8297 9.84423 23.0443 5.05887 17.1421 5.05887Z" fill="#24292E"/>
             </svg>
             <div class="socials__block">
-              <span class="socials__span">Github</span>
-              <a class="socials__link">@anuragyadav365</a>
+              <span class="socials__span text-regular">Github</span>
+              <a class="socials__link text-medium">@anuragyadav365</a>
             </div>
           </li>
 
           <li class="socials__item">
-            <svg class="socials__svg" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="socials__svg twitter" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M17.2573 5.88958C18.0106 5.43923 18.5743 4.7301 18.843 3.8946C18.1352 4.3146 17.3607 4.61047 16.5531 4.7694C15.4334 3.58495 13.6594 3.29671 12.2223 4.06574C10.7852 4.83477 10.0408 6.47067 10.4051 8.05936C7.50558 7.91379 4.80416 6.54414 2.97307 4.29124C2.01746 5.93952 2.5058 8.04657 4.08906 9.10643C3.51653 9.08803 2.95671 8.93302 2.45626 8.65433C2.45626 8.66945 2.45626 8.68458 2.45626 8.69971C2.45659 10.4167 3.66667 11.8956 5.34958 12.2359C4.81853 12.3804 4.2615 12.4016 3.72098 12.2981C4.19427 13.7664 5.54752 14.7723 7.08994 14.8023C5.81247 15.805 4.23484 16.3487 2.61088 16.346C2.32304 16.3464 2.03542 16.3299 1.74953 16.2965C3.39862 17.3562 5.31795 17.9186 7.27818 17.9166C10.0053 17.9354 12.6262 16.8602 14.5545 14.9317C16.4829 13.0032 17.5578 10.3823 17.5388 7.65515C17.5388 7.49885 17.5352 7.34338 17.5279 7.18876C18.2342 6.67833 18.8437 6.04601 19.3279 5.32151C18.6699 5.61316 17.972 5.80464 17.2573 5.88958Z" fill="white"/>
             </svg>
             <div class="socials__block">
-              <span class="socials__span">Twitter</span>
-              <a class="socials__link">@anuragmnp</a>
+              <span class="socials__span text-regular">Twitter</span>
+              <a class="socials__link text-medium">@anuragmnp</a>
             </div>
           </li>
 
           <li class="socials__item">
-            <svg class="socials__svg" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="socials__svg linkedin" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.3791 18.1186H8.01767V8.03446H11.3791V9.71515C12.0956 8.80359 13.1821 8.26015 14.3413 8.23362C16.4259 8.24519 18.1079 9.94153 18.1019 12.0261V18.1186H14.7405V12.4463C14.606 11.5073 13.8007 10.8106 12.8522 10.8126C12.4373 10.8258 12.0457 11.0074 11.7677 11.3157C11.4897 11.624 11.3494 12.0322 11.3791 12.4463V18.1186ZM6.33698 18.1186H2.97559V8.03446H6.33698V18.1186ZM4.65628 6.35376C3.72806 6.35376 2.97559 5.60129 2.97559 4.67307C2.97559 3.74484 3.72806 2.99237 4.65628 2.99237C5.5845 2.99237 6.33698 3.74484 6.33698 4.67307C6.33698 5.11881 6.1599 5.54631 5.84471 5.8615C5.52952 6.17669 5.10203 6.35376 4.65628 6.35376Z" fill="white"/>
             </svg>
             <div class="socials__block">
-              <span class="socials__span">Linkedin</span>
-              <a class="socials__link">@anuragyadav</a>
+              <span class="socials__span text-regular">Linkedin</span>
+              <a class="socials__link text-medium">@anuragyadav</a>
             </div>
           </li>
         </ul>
       </div>
 
-      <div class="profile-block__learning learning">
-        <h4 class="learning__heading">Languages</h4>
+      <div class="profile-block__learning learning border-block">
+        <h4 class="learning__heading text-regular">Languages</h4>
         <ul class="learning__list">
           <li class="learning__item">
-            <svg class="learning__svg" width="65" height="57" viewBox="0 0 65 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g filter="url(#filter0_d_7_108)">
-                <g clip-path="url(#clip0_7_108)">
-                  <rect x="16.404" y="12.2037" width="32.2694" height="24.202" fill="#E1E7FE"/>
-                  <mask id="mask0_7_108" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="16" y="12" width="33" height="25">
-                    <rect x="16.404" y="12.2037" width="32.2694" height="24.202" fill="white"/>
-                  </mask>
-                  <g mask="url(#mask0_7_108)">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 12.2037V36.4057H48.6734V12.2037H16.404Z" fill="#F7FCFF"/>
-                    <mask id="mask1_7_108" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="16" y="12" width="33" height="25">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 12.2037V36.4057H48.6734V12.2037H16.404Z" fill="white"/>
-                    </mask>
-                    <g mask="url(#mask1_7_108)">
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 12.2037V20.271H48.6734V12.2037H16.404Z" fill="#FF8C1A"/>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.404 28.3384V36.4057H48.6734V28.3384H16.404Z" fill="#5EAA22"/>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M28.5051 24.3047C28.5051 26.5324 30.311 28.3383 32.5387 28.3383C34.7665 28.3383 36.5724 26.5324 36.5724 24.3047C36.5724 22.0769 34.7665 20.271 32.5387 20.271C30.311 20.271 28.5051 22.0769 28.5051 24.3047ZM35.564 24.3047C35.564 25.9755 34.2095 27.3299 32.5387 27.3299C30.8679 27.3299 29.5135 25.9755 29.5135 24.3047C29.5135 22.6339 30.8679 21.2794 32.5387 21.2794C34.2095 21.2794 35.564 22.6339 35.564 24.3047Z" fill="#3D58DB"/>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.5332 25.1726L31.6922 28.2722L32.1847 25.0985L30.1557 27.5881L31.8964 24.8891L29.0303 26.3382L31.7183 24.5806L28.5105 24.7386L31.6811 24.2262L28.6863 23.0659L31.7912 23.8874L29.5273 21.6093L32.0296 23.6226L30.888 20.6207L32.355 23.4777L32.5332 20.271L32.7113 23.4777L34.1784 20.6207L33.0368 23.6226L35.5391 21.6093L33.2752 23.8874L36.38 23.0659L33.3853 24.2262L36.5558 24.7386L33.3481 24.5806L36.0361 26.3382L33.1699 24.8891L34.9107 27.5881L32.8817 25.0985L33.3741 28.2722L32.5332 25.1726Z" fill="#3D58DB"/>
-                    </g>
-                  </g>
+            <svg class="learning__svg" width="33" height="25" viewBox="0 0 33 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_7_110" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="25">
+                <rect x="0.404037" y="0.203674" width="32.2694" height="24.202" fill="white"/>
+              </mask>
+              <g mask="url(#mask0_7_110)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.404037 0.203674V24.4057H32.6734V0.203674H0.404037Z" fill="#F7FCFF"/>
+                <mask id="mask1_7_110" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="25">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.404037 0.203674V24.4057H32.6734V0.203674H0.404037Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask1_7_110)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.404037 0.203674V8.27101H32.6734V0.203674H0.404037Z" fill="#FF8C1A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.404037 16.3384V24.4057H32.6734V16.3384H0.404037Z" fill="#5EAA22"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5051 12.3047C12.5051 14.5324 14.311 16.3383 16.5387 16.3383C18.7665 16.3383 20.5724 14.5324 20.5724 12.3047C20.5724 10.0769 18.7665 8.271 16.5387 8.271C14.311 8.271 12.5051 10.0769 12.5051 12.3047ZM19.564 12.3047C19.564 13.9755 18.2095 15.3299 16.5387 15.3299C14.8679 15.3299 13.5135 13.9755 13.5135 12.3047C13.5135 10.6339 14.8679 9.27944 16.5387 9.27944C18.2095 9.27944 19.564 10.6339 19.564 12.3047Z" fill="#3D58DB"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5332 13.1726L15.6922 16.2722L16.1847 13.0985L14.1557 15.5881L15.8964 12.8891L13.0303 14.3382L15.7183 12.5806L12.5105 12.7386L15.6811 12.2262L12.6863 11.0659L15.7912 11.8874L13.5273 9.6093L16.0296 11.6226L14.888 8.62069L16.355 11.4777L16.5332 8.271L16.7113 11.4777L18.1784 8.62069L17.0368 11.6226L19.5391 9.6093L17.2752 11.8874L20.38 11.0659L17.3853 12.2262L20.5558 12.7386L17.3481 12.5806L20.0361 14.3382L17.1699 12.8891L18.9107 15.5881L16.8817 13.0985L17.3741 16.2722L16.5332 13.1726Z" fill="#3D58DB"/>
                 </g>
               </g>
-              <defs>
-                <filter id="filter0_d_7_108" x="0.269358" y="0.102664" width="64.5387" height="56.4714" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                  <feOffset dy="4.03367"/>
-                  <feGaussianBlur stdDeviation="8.06734"/>
-                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
-                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_108"/>
-                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_108" result="shape"/>
-                </filter>
-                <clipPath id="clip0_7_108">
-                  <rect x="16.404" y="12.2037" width="32.2694" height="24.202" rx="4.03367" fill="white"/>
-                </clipPath>
-              </defs>
             </svg>
 
             <div class="learning__block">
-              <span class="learning__span">Hindi</span>
-              <p class="learning__description">Native</p>
+              <span class="learning__span text-medium">Hindi</span>
+              <p class="learning__description text-regular">Native</p>
             </div>
           </li>
 
@@ -231,8 +212,8 @@ export default {
             </svg>
 
             <div class="learning__block">
-              <span class="learning__span">English</span>
-              <p class="learning__description">Professional working</p>
+              <span class="learning__span text-medium">English</span>
+              <p class="learning__description text-regular">Professional working</p>
             </div>
           </li>
 
@@ -264,15 +245,15 @@ export default {
             </svg>
 
             <div class="learning__block">
-              <span class="learning__span">Spanish</span>
-              <p class="learning__description">Elementary</p>
+              <span class="learning__span text-medium">Spanish</span>
+              <p class="learning__description text-regular">Elementary</p>
             </div>
           </li>
         </ul>
       </div>
 
       <div class="profile-block__hobbies hobbies">
-        <h4 class="hobbies__heading">Hobbies & Interests</h4>
+        <h4 class="hobbies__heading text-regular">Hobbies & Interests</h4>
 
         <ul class="hobbies__list">
           <li class="hobbies__item">
@@ -280,7 +261,7 @@ export default {
               <circle cx="17.5471" cy="17.2727" r="12.8573" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M13.9757 21.6396V12.9057C13.9757 11.7437 15.2891 11.0678 16.2346 11.7432L22.3483 16.1102C23.146 16.6799 23.146 17.8654 22.3483 18.4351L16.2346 22.8021C15.2891 23.4775 13.9757 22.8016 13.9757 21.6396Z" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <p class="hobbies__description">Gaming</p>
+            <p class="hobbies__description text-medium">Gaming</p>
           </li>
 
           <li class="hobbies__item">
@@ -289,7 +270,7 @@ export default {
               <path d="M18.9757 4.90491C18.4785 5.32333 18.0306 5.81712 17.6495 6.38286C15.4455 9.65469 16.3111 14.0937 19.583 16.2978C19.8412 16.4717 20.1068 16.6266 20.3779 16.7626C23.2614 18.2095 24.3623 16.2594 25.9235 17.3111C26.9362 17.9933 27.2042 19.3673 26.522 20.38C25.8071 21.4413 24.69 21.9793 24.8833 23.7176C24.9924 24.6987 25.5951 25.5442 26.3761 26.2651" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M6.11839 13.8078C7.66396 14.1839 9.09415 15.0761 10.127 16.4448C11.228 17.9038 11.6844 19.6484 11.544 21.337C11.4696 22.2313 12.0528 23.134 12.8033 23.626C13.166 23.8637 13.4945 24.1668 13.7707 24.5328C14.9936 26.1534 14.7496 28.4237 13.2613 29.7519" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <p class="hobbies__description">Travelling</p>
+            <p class="hobbies__description text-medium">Travelling</p>
           </li>
 
           <li class="hobbies__item">
@@ -297,7 +278,7 @@ export default {
               <path d="M6.11839 25.2573C6.11839 22.8904 8.0372 20.9716 10.4042 20.9716V20.9716C12.7711 20.9716 14.6899 22.8904 14.6899 25.2573V25.2573C14.6899 27.6243 12.7711 29.5431 10.4042 29.5431H6.68538C6.37224 29.5431 6.11839 29.2893 6.11839 28.9761V27.4002V25.2573V25.2573Z" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M11.8328 20.6204L22.6755 8.57291C23.7706 7.35616 25.662 7.30642 26.8196 8.46394L27.0086 8.65297L27.1976 8.842C28.3551 9.99952 28.3054 11.891 27.0887 12.9861L15.0412 23.8288" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <p class="hobbies__description">Sketching/Graffitti</p>
+            <p class="hobbies__description text-medium">Sketching/Graffitti</p>
           </li>
 
           <li class="hobbies__item">
@@ -307,7 +288,7 @@ export default {
               <path d="M21.8329 20.3925H28.9759" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M21.5745 20.4297C21.2728 21.2586 20.7227 21.9742 19.9992 22.4789C19.2758 22.9835 18.4143 23.2527 17.5322 23.2496C16.6501 23.2465 15.7905 22.9714 15.0706 22.4617C14.3507 21.9519 13.8056 21.2325 13.5097 20.4015" stroke="black" stroke-width="2.85718" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            <p class="hobbies__description">Blogging</p>
+            <p class="hobbies__description text-medium">Blogging</p>
           </li>
         </ul>
       </div>
@@ -316,6 +297,26 @@ export default {
 </template>
 
 <style scoped>
+  .text-regular {
+    color: #79819A;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+
+  .text-medium {
+    color: #47516B;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  .border-block {
+    border-top: 1px solid #E2E6EE;
+    padding-top: 32px;
+    margin-bottom: 32px;
+  }
+
   .profile-block {
     min-width: 364px;
     background: #F7F9FC;
@@ -323,26 +324,50 @@ export default {
       padding: 48px;
 
       .profile-info {
+        margin-bottom: 32px;
+
         .profile-info__img {
+          margin-bottom: 16px;
         }
 
         .profile-info__heading {
+          line-height: 40px;
+          font-size: 32px;
+          font-weight: 500;
+          color: #2E2E48;
         }
       }
 
       .description {
+        margin-bottom: 10px;
+        max-width: 300px;
         .description__span {
+          display: block;
+          line-height: 24px;
+          font-size: 18px;
         }
       }
 
       .contacts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 32px;
+
         .contacts-list__item {
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center;
         }
 
         .contacts-list__svg {
         }
 
         .contacts-list__block-contact {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
         }
 
         .contacts-list__description {
@@ -353,19 +378,47 @@ export default {
       }
 
       .socials {
+        margin-bottom: 32px;
+
         .socials__heading {
+          margin-bottom: 20px;
         }
 
         .socials__list {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
         }
 
         .socials__item {
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center;
+        }
+
+        .twitter {
+          background: #00ACEE;
+          padding: 10px;
+          border-radius: 100%;
+        }
+        .linkedin {
+
+          background: #0077B5;
+          padding: 10px;
+          border-radius: 100%;
         }
 
         .socials__svg {
+          width: 32px;
+          height: 32px;
         }
 
+
         .socials__block {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
         }
 
         .socials__span {
@@ -376,19 +429,32 @@ export default {
       }
 
       .learning {
+        margin-bottom: 32px;
+
         .learning__heading {
+          margin-bottom: 20px;
         }
 
         .learning__list {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
         }
 
         .learning__item {
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center;
         }
 
         .learning__svg {
         }
 
         .learning__block {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
         }
 
         .learning__span {
@@ -399,13 +465,22 @@ export default {
       }
 
       .hobbies {
+
         .hobbies__heading {
+          margin-bottom: 16px;
         }
 
         .hobbies__list {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
         }
 
         .hobbies__item {
+          display: flex;
+          flex-direction: row;
+          gap: 16px;
+          align-items: center;
         }
 
         .hobbies__svg {
