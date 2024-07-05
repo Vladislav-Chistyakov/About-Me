@@ -7,7 +7,6 @@ import Profile from "./components/Profile/index.vue";
   <div class="app">
     <Profile />
     <Main />
-    <h1>123123</h1>
   </div>
 </template>
 
