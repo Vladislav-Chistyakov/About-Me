@@ -1,10 +1,11 @@
 <script>
 import Education from './Education/index.vue'
 import Achievements from './Achievements/index.vue'
+import ToolsAndSkills from './ToolsAndSkills/index.vue'
 
 export default {
   name: "index",
-  components: { Education, Achievements },
+  components: { Education, Achievements, ToolsAndSkills },
   data () {
     return {
       text: '11111'
@@ -41,6 +42,17 @@ export default {
         </div>
         <div class="section__info">
           <Achievements></Achievements>
+        </div>
+      </section>
+      <section class="main-block__section section">
+        <div class="section__long">
+          <span class="section__long-circle">
+            <span class="section__long-circle-center" />
+          </span>
+          <span class="section__long-line"></span>
+        </div>
+        <div class="section__info">
+          <ToolsAndSkills></ToolsAndSkills>
         </div>
       </section>
     </div>
