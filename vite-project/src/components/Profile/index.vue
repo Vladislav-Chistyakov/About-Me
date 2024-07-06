@@ -353,7 +353,6 @@ export default {
 
       .description {
         margin-bottom: 10px;
-        max-width: 300px;
         .description__span {
           display: block;
           line-height: 24px;
@@ -365,6 +364,7 @@ export default {
         display: flex;
         flex-direction: column;
         gap: 24px;
+        min-width: 270px;
         margin-bottom: 32px;
 
         .contacts-list__item {
@@ -389,6 +389,7 @@ export default {
         }
 
         .contacts-list__link {
+          word-break: break-all;
         }
       }
 
