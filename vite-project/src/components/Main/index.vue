@@ -3,10 +3,18 @@ import Education from './Education/index.vue'
 import Achievements from './Achievements/index.vue'
 import ToolsAndSkills from './ToolsAndSkills/index.vue'
 import LatestProjects from './LatestProjects/index.vue'
+import CertificatesAndAwards from './CertificatesAndAwards/index.vue'
+
 
 export default {
   name: "index",
-  components: { Education, Achievements, ToolsAndSkills, LatestProjects },
+  components: {
+    Education,
+    Achievements,
+    ToolsAndSkills,
+    LatestProjects,
+    CertificatesAndAwards
+  },
   data () {
     return {
       text: '11111'
@@ -65,6 +73,17 @@ export default {
         </div>
         <div class="section__info">
           <LatestProjects></LatestProjects>
+        </div>
+      </section>
+      <section class="main-block__section section">
+        <div class="section__long">
+          <span class="section__long-circle">
+            <span class="section__long-circle-center" />
+          </span>
+          <span class="section__long-line"></span>
+        </div>
+        <div class="section__info">
+          <CertificatesAndAwards></CertificatesAndAwards>
         </div>
       </section>
     </div>
