@@ -77,10 +77,6 @@ const educationArray = [
 </template>
 
 <style scoped>
-.education__item:last-child {
-  border-radius: 0 6px 6px 0;
-  overflow: hidden;
-}
 
 .education__item {
   display: flex;
@@ -151,21 +147,13 @@ const educationArray = [
   display: grid;
   grid-template-columns: 1fr;
   gap: 8px;
-}
-
-.education__item:first-child {
-  border-radius: 6px 0 0 6px;
+  border-radius: 6px;
   overflow: hidden;
 }
 
-@media screen and (min-width: 576px){}
-@media screen and (min-width: 768px){}
 @media screen and (min-width: 1024px){
   .education__list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media screen and (min-width: 1440px){}
-@media screen and (min-width: 1600px){}
-@media screen and (min-width: 1920px){}
 </style>

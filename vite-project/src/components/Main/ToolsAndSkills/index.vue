@@ -220,8 +220,5 @@ export default {
     flex-basis: calc(20% - 16px);
   }
 }
-@media screen and (min-width: 1440px){}
-@media screen and (min-width: 1600px){}
-@media screen and (min-width: 1920px){}
 
 </style>

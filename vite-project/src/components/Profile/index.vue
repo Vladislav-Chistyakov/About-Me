@@ -337,9 +337,15 @@ export default {
       padding: 16px;
 
       .profile-info {
-        margin-bottom: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 16px;
 
         .profile-info__img {
+          display: block;
+          max-width: 120px;
           margin-bottom: 16px;
         }
 
@@ -352,8 +358,10 @@ export default {
       }
 
       .description {
-        margin-bottom: 10px;
+        padding: 0 38px;
+        margin-bottom: 24px;
         .description__span {
+          text-align: center;
           display: block;
           line-height: 24px;
           font-size: 18px;
@@ -514,6 +522,22 @@ export default {
       .profile-block__wrapper {
         max-width: 380px;
         padding: 48px;
+
+        .profile-info {
+          display: block;
+          margin-bottom: 32px;
+          .profile-info__img {
+            max-width: fit-content;
+          }
+        }
+
+        .description {
+          padding: 0;
+          margin-bottom: 10px;
+          .description__span {
+            text-align: start;
+          }
+        }
       }
     }
   }

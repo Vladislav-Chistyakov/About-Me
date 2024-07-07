@@ -133,14 +133,9 @@ export default {
   color: #47516B;
 }
 
-@media screen and (min-width: 576px){}
-@media screen and (min-width: 768px){}
 @media screen and (min-width: 1024px){
   .certificates-and-awards__list {
     padding: 0 24px;
   }
 }
-@media screen and (min-width: 1440px){}
-@media screen and (min-width: 1600px){}
-@media screen and (min-width: 1920px){}
 </style>

@@ -114,8 +114,6 @@ export default {
   }
 }
 
-@media screen and (min-width: 576px){}
-@media screen and (min-width: 768px){}
 @media screen and (min-width: 1024px){
   .main-block {
     padding: 0 48px 0 32px;
@@ -165,7 +163,4 @@ export default {
     }
   }
 }
-@media screen and (min-width: 1440px){}
-@media screen and (min-width: 1600px){}
-@media screen and (min-width: 1920px){}
 </style>

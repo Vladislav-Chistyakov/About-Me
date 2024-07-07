@@ -157,15 +157,10 @@ export default {
   color: #516CF7;
 }
 
-@media screen and (min-width: 576px){}
-@media screen and (min-width: 768px){}
 @media screen and (min-width: 1024px){
 
   .latest-projects__list {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (min-width: 1440px){}
-@media screen and (min-width: 1600px){}
-@media screen and (min-width: 1920px){}
 </style>

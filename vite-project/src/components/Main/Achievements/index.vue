@@ -259,8 +259,6 @@ export default {
   }
 }
 
-@media screen and (min-width: 576px){}
-@media screen and (min-width: 768px){}
 @media screen and (min-width: 1024px){
   .achievements__item {
     display: flex;
@@ -281,7 +279,5 @@ export default {
   }
 }
 @media screen and (min-width: 1440px){}
-@media screen and (min-width: 1600px){}
-@media screen and (min-width: 1920px){}
 
 </style>
