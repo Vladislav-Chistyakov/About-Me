@@ -259,4 +259,125 @@ export default {
   }
 }
 
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 1024px){
+  .achievements__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .achievements__item-block {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 16px;
+    padding-top: 6px;
+    padding-bottom: 20px;
+  }
+
+  .achievements__item-block-wrapper {
+    min-width: 250px;
+  }
+
+  .achievements__item-block-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .achievements__item-block-present {
+    border-radius: 4px;
+    background: #EFE2F9;
+    padding: 2px;
+    color: #9251F7;
+    font-size: 11px;
+  }
+
+  .achievements__item-block-date {
+    font-size: 11px;
+    color: #47516B;
+  }
+
+  .achievements__item-block-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .achievements__item-block-location-info {
+    font-size: 11px;
+    color: #79819A;
+  }
+
+  .achievements__item-block-company {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .achievements__item-block-company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .achievements__item-block-company-icon {
+    display: flex;
+  }
+
+  .achievements__item-block-company-name {
+    font-size: 14px;
+    line-height: 18px;
+    color: #2E2E48;
+  }
+
+  .achievements__item-block-company-speciality {
+    font-size: 12px;
+    line-height: 16px;
+    color: #79819A;
+  }
+
+  .achievements__item-description {
+    font-size: 12px;
+    line-height: 16px;
+    color: #79819A;
+  }
+
+  .achievements__long {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .achievements__long-circle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      min-height: 24px;
+      background: #FFFFFF;
+      border-radius: 100%;
+      .achievements__long-circle-center {
+        border-radius: 100%;
+        background: #2E2E48;
+        min-height: 8px;
+        width: 8px;
+      }
+    }
+
+    .achievements__long-line {
+      display: block;
+      width: 1px;
+      background: #F7F9FC;
+      height: 100%;
+    }
+  }
+}
+@media screen and (min-width: 1440px){}
+@media screen and (min-width: 1600px){}
+@media screen and (min-width: 1920px){}
+
 </style>

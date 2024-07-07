@@ -77,25 +77,6 @@ const educationArray = [
 </template>
 
 <style scoped>
-.education__title {
-  font-weight: var(--heading-font-weight);
-  font-size: var(--heading-font-size);
-  line-height: var(--heading-line-height);
-  color: var(--heading-color);
-  margin-bottom: var(--heading-margin-bottom);
-}
-
-.education__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 8px;
-}
-
-.education__item:first-child {
-  border-radius: 6px 0 0 6px;
-  overflow: hidden;
-}
-
 .education__item:last-child {
   border-radius: 0 6px 6px 0;
   overflow: hidden;
@@ -157,4 +138,34 @@ const educationArray = [
   font-size: 12px;
   line-height: 16px;
 }
+
+.education__title {
+  font-weight: var(--heading-font-weight);
+  font-size: var(--heading-font-size);
+  line-height: var(--heading-line-height);
+  color: var(--heading-color);
+  margin-bottom: var(--heading-margin-bottom);
+}
+
+.education__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.education__item:first-child {
+  border-radius: 6px 0 0 6px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 1024px){
+  .education__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1440px){}
+@media screen and (min-width: 1600px){}
+@media screen and (min-width: 1920px){}
 </style>

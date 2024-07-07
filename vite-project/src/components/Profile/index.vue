@@ -112,7 +112,7 @@ export default {
         </li>
       </ul>
       <div class="profile-block__socials socials border-block">
-        <h4 class="socials__heading text-regular">Socials</h4>
+        <h3 class="socials__heading text-regular">Socials</h3>
 
         <ul class="socials__list">
           <li class="socials__item">
@@ -173,7 +173,7 @@ export default {
       </div>
 
       <div class="profile-block__learning learning border-block">
-        <h4 class="learning__heading text-regular">Languages</h4>
+        <h3 class="learning__heading text-regular">Languages</h3>
         <ul class="learning__list">
           <li class="learning__item">
             <svg class="learning__svg" width="33" height="25" viewBox="0 0 33 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -266,7 +266,7 @@ export default {
       </div>
 
       <div class="profile-block__hobbies hobbies">
-        <h4 class="hobbies__heading text-regular">Hobbies & Interests</h4>
+        <h3 class="hobbies__heading text-regular">Hobbies & Interests</h3>
 
         <ul class="hobbies__list">
           <li class="hobbies__item">
@@ -334,8 +334,7 @@ export default {
     width: fit-content;
     background: #F7F9FC;
     .profile-block__wrapper {
-      max-width: 380px;
-      padding: 48px;
+      padding: 16px;
 
       .profile-info {
         margin-bottom: 32px;
@@ -506,6 +505,15 @@ export default {
 
         .hobbies__description {
         }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .profile-block {
+      .profile-block__wrapper {
+        max-width: 380px;
+        padding: 48px;
       }
     }
   }
