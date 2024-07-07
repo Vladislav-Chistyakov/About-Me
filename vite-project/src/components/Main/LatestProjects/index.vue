@@ -65,20 +65,20 @@ export default {
 </script>
 
 <template>
-  <div>
-    <h2>Latest projects</h2>
-    <ul>
-      <li v-for="(item, index) in latestProjectsArray" :key="index">
-        <div>
-          <div v-html="item.icon" />
-          <div>
-            <strong>{{ item.name }}</strong>
-            <p>{{ item.description }}</p>
+  <div class="latest-projects">
+    <h2 class="latest-projects__title heading">Latest projects</h2>
+    <ul class="latest-projects__list">
+      <li v-for="(item, index) in latestProjectsArray" :key="index" class="latest-projects__item">
+        <div class="latest-projects__block-info">
+          <div v-html="item.icon" class="latest-projects__block-info-icon"/>
+          <div class="latest-projects__block-info-name-and-description">
+            <strong class="latest-projects__block-info-name">{{ item.name }}</strong>
+            <p class="latest-projects__block-info-description">{{ item.description }}</p>
           </div>
         </div>
-        <div>
-          <div v-html="item.iconLink" />
-          <a target="_blank" :href="item.link">{{ item.labelLink }}</a>
+        <div class="latest-projects__block-link">
+          <div v-html="item.iconLink" class="latest-projects__block-link-icon"/>
+          <a target="_blank" :href="item.link" class="latest-projects__block-link-project">{{ item.labelLink }}</a>
         </div>
       </li>
     </ul>
@@ -86,5 +86,76 @@ export default {
 </template>
 
 <style scoped>
+.latest-projects__title {
+  margin-bottom: 32px;
+}
 
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2E2E48;
+}
+
+.latest-projects__list {
+  border-radius: 6px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.latest-projects__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background-color: #F7F9FC;
+}
+
+.latest-projects__block-info {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.latest-projects__block-info-icon {
+  display: flex;
+}
+
+.latest-projects__block-info-name-and-description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.latest-projects__block-info-name {
+  font-size: 16px;
+  line-height: 20px;
+  color: #2E2E48;
+}
+
+.latest-projects__block-info-description {
+  font-size: 14px;
+  line-height: 18px;
+  color: #78819A;
+}
+
+.latest-projects__block-link {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+.latest-projects__block-link-icon {
+  display: flex;
+}
+
+.latest-projects__block-link-project {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #516CF7;
+}
 </style>
