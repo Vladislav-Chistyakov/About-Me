@@ -150,6 +150,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
   padding: 28px;
   background-color: #F7F9FC;
 }

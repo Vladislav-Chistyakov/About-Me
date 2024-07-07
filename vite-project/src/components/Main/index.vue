@@ -96,7 +96,7 @@ export default {
 }
 
 .main-block__wrapper {
-  padding-top: 64px;
+  padding-top: 32px;
 
   .section {
     display: flex;

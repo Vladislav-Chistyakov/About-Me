@@ -98,7 +98,7 @@ export default {
   border-radius: 6px;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 12px;
 }
 
@@ -143,6 +143,7 @@ export default {
   flex-direction: row;
   gap: 16px;
   align-items: center;
+  word-break: break-all;
 }
 
 .latest-projects__block-link-icon {
@@ -161,65 +162,7 @@ export default {
 @media screen and (min-width: 1024px){
 
   .latest-projects__list {
-    border-radius: 6px;
-    overflow: hidden;
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-
-  .latest-projects__item {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 24px;
-    background-color: #F7F9FC;
-  }
-
-  .latest-projects__block-info {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-  }
-
-  .latest-projects__block-info-icon {
-    display: flex;
-  }
-
-  .latest-projects__block-info-name-and-description {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .latest-projects__block-info-name {
-    font-size: 16px;
-    line-height: 20px;
-    color: #2E2E48;
-  }
-
-  .latest-projects__block-info-description {
-    font-size: 14px;
-    line-height: 18px;
-    color: #78819A;
-  }
-
-  .latest-projects__block-link {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: center;
-  }
-
-  .latest-projects__block-link-icon {
-    display: flex;
-  }
-
-  .latest-projects__block-link-project {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #516CF7;
   }
 }
 @media screen and (min-width: 1440px){}

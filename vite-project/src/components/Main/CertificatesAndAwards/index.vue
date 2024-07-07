@@ -78,7 +78,6 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
   gap: 8px;
-  padding: 0 24px;
 }
 
 .certificates-and-awards__item {
@@ -92,6 +91,10 @@ export default {
 
 .certificates-and-awards__item:first-child {
   border-radius: 6px 6px 0 0;
+}
+
+.certificates-and-awards__item:last-child {
+  border-radius: 0 0 6px 6px;
 }
 
 .certificates-and-awards__block {
@@ -129,4 +132,15 @@ export default {
   line-height: 16px;
   color: #47516B;
 }
+
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 1024px){
+  .certificates-and-awards__list {
+    padding: 0 24px;
+  }
+}
+@media screen and (min-width: 1440px){}
+@media screen and (min-width: 1600px){}
+@media screen and (min-width: 1920px){}
 </style>
