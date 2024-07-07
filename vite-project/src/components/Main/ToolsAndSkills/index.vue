@@ -114,16 +114,14 @@ export default {
 </script>
 
 <template>
-  <div>
-    <h2>Tools/Skills</h2>
-    <ul>
-      <li v-for="(item, index) in toolsAndSkillsArray" :key="index">
-        <div>
-          <div v-html="item.icon" />
-          <div>
-            <strong>{{ item.name }}</strong>
-            <p>{{ item.description }}</p>
-          </div>
+  <div class="tools-and-skills">
+    <h2 class="tools-and-skills__title heading">Tools/Skills</h2>
+    <ul class="tools-and-skills__list">
+      <li class="tools-and-skills__item" v-for="(item, index) in toolsAndSkillsArray" :key="index">
+        <div v-html="item.icon" class="tools-and-skills__icon" />
+        <div class="tools-and-skills__info">
+          <strong class="tools-and-skills__strong">{{ item.name }}</strong>
+          <p class="tools-and-skills__description">{{ item.description }}</p>
         </div>
       </li>
     </ul>
@@ -131,5 +129,60 @@ export default {
 </template>
 
 <style scoped>
+.tools-and-skills__title {
+  margin-bottom: 32px;
+}
 
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2E2E48;
+}
+
+.tools-and-skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  overflow: hidden;
+  gap: 8px;
+}
+
+.tools-and-skills__item {
+  flex: 1 1 calc(33.33% - 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  background-color: #F7F9FC;
+}
+
+.tools-and-skills__item:nth-child(n+4) {
+  flex-basis: calc(20% - 16px);
+}
+
+.tools-and-skills__icon {
+  display: flex;
+}
+
+.tools-and-skills__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools-and-skills__strong {
+  font-size: 14px;
+  line-height: 18px;
+  color: #2E2E48;
+}
+
+.tools-and-skills__description {
+  font-size: 10px;
+  line-height: 14px;
+  color: #79819A;
+}
 </style>
