@@ -1,5 +1,4 @@
 <script>
-import classes from '../../../assets/default.module.css'
 
 const certificatesAndAwards = [
   {
@@ -49,7 +48,7 @@ export default {
 
 <template>
   <div class="certificates-and-awards">
-    <h2 class="certificates-and-awards__title heading">Certificates & Awards</h2>
+    <h2 class="certificates-and-awards__title">Certificates & Awards</h2>
     <ul class="certificates-and-awards__list">
       <li v-for="(item, index) in certificatesAndAwards" :key="index" class="certificates-and-awards__item">
         <div class="certificates-and-awards__block">
@@ -68,15 +67,11 @@ export default {
 <style scoped>
 
 .certificates-and-awards__title {
-  margin-bottom: 32px;
-  background-color: var(--bg-red);
-}
-
-.heading {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  color: #2E2E48;
+  font-weight: var(--heading-font-weight);
+  font-size: var(--heading-font-size);
+  line-height: var(--heading-line-height);
+  color: var(--heading-color);
+  margin-bottom: var(--heading-margin-bottom);
 }
 
 .certificates-and-awards__list {

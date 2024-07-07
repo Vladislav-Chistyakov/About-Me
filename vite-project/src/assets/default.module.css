@@ -1,3 +1,24 @@
 :root {
-    --bg-red: #ff0000
+    --default-indentation: 32px;
+
+    --bg-red: #ff0000;
+    --heading-color: #2e2e48;
+    --purple-one: #5531a7;
+    --purple-two: #516cf7;
+    --purple-three: #9251f7;
+    --purple-four: #5d5fef;
+    --white: #ffffff;
+    --white-one: #f9f9f9;
+    --white-two: #f7f9fc;
+    --white-three: #efe2f9;
+    --white-four: #e2e6ee;
+    --grey-one: #79819a;
+    --grey-two: #78819a;
+    --grey-three: #47516b;
+    --grey-four: #2e2e48;
+
+    --heading-font-weight: 500;
+    --heading-font-size: 24px;
+    --heading-line-height: 32px;
+    --heading-margin-bottom: 32px;
 }

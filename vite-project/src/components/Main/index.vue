@@ -4,7 +4,7 @@ import Achievements from './Achievements/index.vue'
 import ToolsAndSkills from './ToolsAndSkills/index.vue'
 import LatestProjects from './LatestProjects/index.vue'
 import CertificatesAndAwards from './CertificatesAndAwards/index.vue'
-
+import classes from '../../assets/default.module.css'
 
 export default {
   name: "index",

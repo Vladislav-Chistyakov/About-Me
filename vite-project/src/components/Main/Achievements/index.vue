@@ -138,14 +138,11 @@ export default {
 <style scoped>
 
 .achievements__title {
-  margin-bottom: 32px;
-}
-
-.heading {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  color: #2E2E48;
+  font-weight: var(--heading-font-weight);
+  font-size: var(--heading-font-size);
+  line-height: var(--heading-line-height);
+  color: var(--heading-color);
+  margin-bottom: var(--heading-margin-bottom);
 }
 
 .achievements__item {

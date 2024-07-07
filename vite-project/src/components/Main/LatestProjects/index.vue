@@ -66,7 +66,7 @@ export default {
 
 <template>
   <div class="latest-projects">
-    <h2 class="latest-projects__title heading">Latest projects</h2>
+    <h2 class="latest-projects__title">Latest projects</h2>
     <ul class="latest-projects__list">
       <li v-for="(item, index) in latestProjectsArray" :key="index" class="latest-projects__item">
         <div class="latest-projects__block-info">
@@ -87,14 +87,11 @@ export default {
 
 <style scoped>
 .latest-projects__title {
-  margin-bottom: 32px;
-}
-
-.heading {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-  color: #2E2E48;
+  font-weight: var(--heading-font-weight);
+  font-size: var(--heading-font-size);
+  line-height: var(--heading-line-height);
+  color: var(--heading-color);
+  margin-bottom: var(--heading-margin-bottom);
 }
 
 .latest-projects__list {
