@@ -134,6 +134,7 @@ export default {
   }
 
   .section__info {
+    width: 100%;
     padding-bottom: 42px;
   }
 }
