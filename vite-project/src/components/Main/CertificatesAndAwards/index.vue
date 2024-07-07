@@ -1,4 +1,5 @@
 <script>
+import classes from '../../../assets/default.module.css'
 
 const certificatesAndAwards = [
   {
@@ -65,8 +66,10 @@ export default {
 </template>
 
 <style scoped>
+
 .certificates-and-awards__title {
   margin-bottom: 32px;
+  background-color: var(--bg-red);
 }
 
 .heading {
