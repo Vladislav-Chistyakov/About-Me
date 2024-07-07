@@ -334,6 +334,7 @@ export default {
     width: fit-content;
     background: #F7F9FC;
     .profile-block__wrapper {
+      max-width: 380px;
       padding: 48px;
 
       .profile-info {
