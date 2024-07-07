@@ -58,18 +58,18 @@ const educationArray = [
 </script>
 
 <template>
-  <div>
-    <h2>Education</h2>
-    <ul>
-      <li v-for="(item, index) in educationArray" :key="index">
-        <div>
-          <div v-html="item.icon" />
-          <div>{{ item.name }}</div>
+  <div class="education">
+    <h2 class="education__title heading">Education</h2>
+    <ul class="education__list">
+      <li v-for="(item, index) in educationArray" :key="index" class="education__item">
+        <div class="education__company">
+          <div class="education__company-icon" v-html="item.icon" />
+          <p class="education__company-name">{{ item.name }}</p>
         </div>
-        <div>
-          <strong>{{ item.description}}</strong>
-          <p>{{ item.date }}</p>
-          <p>Percentage <span>- {{ item.percentage }}</span></p>
+        <div class="education__info">
+          <strong class="education__info-description">{{ item.description}}</strong>
+          <p class="education__info-date">{{ item.date }}</p>
+          <p class="education__info-percentage">Percentage <span class="education__info-percentage-value">- {{ item.percentage }}</span></p>
         </div>
       </li>
     </ul>
@@ -77,5 +77,87 @@ const educationArray = [
 </template>
 
 <style scoped>
+.education__title {
+  margin-bottom: 32px;
+}
 
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2E2E48;
+}
+
+.education__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.education__item:first-child {
+  border-radius: 6px 0 0 6px;
+  overflow: hidden;
+}
+
+.education__item:last-child {
+  border-radius: 0 6px 6px 0;
+  overflow: hidden;
+}
+
+.education__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  background-color: #F7F9FC;
+  padding: 16px 24px;
+}
+
+.education__company {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.education__company-icon {
+  display: flex;
+}
+
+.education__company-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2E2E48;
+}
+
+.education__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.education__info-description {
+  color: #2E2E48;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.education__info-date {
+  color: #79819A;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.education__info-percentage {
+  color: #5D5FEF;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.education__info-percentage-value {
+  color: #79819A;
+  font-size: 12px;
+  line-height: 16px;
+}
 </style>
