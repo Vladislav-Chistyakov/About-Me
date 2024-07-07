@@ -182,4 +182,58 @@ export default {
   line-height: 14px;
   color: #79819A;
 }
+
+@media screen and (min-width: 576px){}
+@media screen and (min-width: 768px){}
+@media screen and (min-width: 1024px){
+  .tools-and-skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    overflow: hidden;
+    gap: 8px;
+  }
+
+  .tools-and-skills__item {
+    flex: 1 1 calc(33.33% - 16px);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    background-color: #F7F9FC;
+  }
+
+  .tools-and-skills__item:nth-child(n+4) {
+    flex-basis: calc(20% - 16px);
+  }
+
+  .tools-and-skills__icon {
+    display: flex;
+  }
+
+  .tools-and-skills__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tools-and-skills__strong {
+    font-size: 14px;
+    line-height: 18px;
+    color: #2E2E48;
+  }
+
+  .tools-and-skills__description {
+    font-size: 10px;
+    line-height: 14px;
+    color: #79819A;
+  }
+}
+@media screen and (min-width: 1440px){}
+@media screen and (min-width: 1600px){}
+@media screen and (min-width: 1920px){}
+
 </style>
