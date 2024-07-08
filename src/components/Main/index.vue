@@ -4,7 +4,6 @@ import Achievements from './Achievements/index.vue'
 import ToolsAndSkills from './ToolsAndSkills/index.vue'
 import LatestProjects from './LatestProjects/index.vue'
 import CertificatesAndAwards from './CertificatesAndAwards/index.vue'
-import classes from '../../assets/default.module.css'
 
 export default {
   name: "index",
@@ -14,16 +13,6 @@ export default {
     ToolsAndSkills,
     LatestProjects,
     CertificatesAndAwards
-  },
-  data () {
-    return {
-      text: '11111'
-    }
-  },
-  computed: {
-    test () {
-      return 'test 111123123123123' + this.text
-    }
   }
 }
 </script>
@@ -91,6 +80,7 @@ export default {
 </template>
 
 <style scoped>
+
 .main-block {
   padding: 0 16px 0 16px;
 }

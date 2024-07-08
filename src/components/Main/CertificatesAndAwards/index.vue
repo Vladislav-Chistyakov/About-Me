@@ -48,7 +48,7 @@ export default {
 
 <template>
   <div class="certificates-and-awards">
-    <h2 class="certificates-and-awards__title">Certificates & Awards</h2>
+    <h2 class="certificates-and-awards__title heading">Certificates & Awards</h2>
     <ul class="certificates-and-awards__list">
       <li v-for="(item, index) in certificatesAndAwards" :key="index" class="certificates-and-awards__item">
         <div class="certificates-and-awards__block">
@@ -66,12 +66,13 @@ export default {
 
 <style scoped>
 
-.certificates-and-awards__title {
-  font-weight: var(--heading-font-weight);
-  font-size: var(--heading-font-size);
-  line-height: var(--heading-line-height);
-  color: var(--heading-color);
-  margin-bottom: var(--heading-margin-bottom);
+.heading {
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2e48;
+  margin-bottom: 22px;
 }
 
 .certificates-and-awards__list {
@@ -134,6 +135,13 @@ export default {
 }
 
 @media screen and (min-width: 1024px){
+  .heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+
   .certificates-and-awards__list {
     padding: 0 24px;
   }

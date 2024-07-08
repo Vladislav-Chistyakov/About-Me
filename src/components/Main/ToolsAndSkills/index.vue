@@ -115,7 +115,7 @@ export default {
 
 <template>
   <div class="tools-and-skills">
-    <h2 class="tools-and-skills__title">Tools/Skills</h2>
+    <h2 class="tools-and-skills__title heading">Tools/Skills</h2>
     <ul class="tools-and-skills__list">
       <li class="tools-and-skills__item" v-for="(item, index) in toolsAndSkillsArray" :key="index">
         <div v-html="item.icon" class="tools-and-skills__icon" />
@@ -129,12 +129,14 @@ export default {
 </template>
 
 <style scoped>
-.tools-and-skills__title {
-  font-weight: var(--heading-font-weight);
-  font-size: var(--heading-font-size);
-  line-height: var(--heading-line-height);
-  color: var(--heading-color);
-  margin-bottom: var(--heading-margin-bottom);
+
+.heading {
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2e48;
+  margin-bottom: 22px;
 }
 
 .tools-and-skills__list {
@@ -197,6 +199,13 @@ export default {
   }
 }
 @media screen and (min-width: 1024px){
+  .heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+
   .tools-and-skills__list {
     display: flex;
     flex-wrap: wrap;

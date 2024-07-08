@@ -137,12 +137,13 @@ export default {
 
 <style scoped>
 
-.achievements__title {
-  font-weight: var(--heading-font-weight);
-  font-size: var(--heading-font-size);
-  line-height: var(--heading-line-height);
-  color: var(--heading-color);
-  margin-bottom: var(--heading-margin-bottom);
+.heading {
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2e48;
+  margin-bottom: 22px;
 }
 
 .achievements__item {
@@ -260,6 +261,13 @@ export default {
 }
 
 @media screen and (min-width: 1024px){
+  .heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+
   .achievements__item {
     display: flex;
     flex-direction: row;

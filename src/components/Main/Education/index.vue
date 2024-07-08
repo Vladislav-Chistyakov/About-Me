@@ -59,7 +59,7 @@ const educationArray = [
 
 <template>
   <div class="education">
-    <h2 class="education__title">Education</h2>
+    <h2 class="education__title heading">Education</h2>
     <ul class="education__list">
       <li v-for="(item, index) in educationArray" :key="index" class="education__item">
         <div class="education__company">
@@ -77,6 +77,15 @@ const educationArray = [
 </template>
 
 <style scoped>
+
+.heading {
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2e48;
+  margin-bottom: 22px;
+}
 
 .education__item {
   display: flex;
@@ -152,6 +161,13 @@ const educationArray = [
 }
 
 @media screen and (min-width: 1024px){
+  .heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+
   .education__list {
     grid-template-columns: 1fr 1fr 1fr;
   }

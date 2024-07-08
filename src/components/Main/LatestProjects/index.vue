@@ -66,7 +66,7 @@ export default {
 
 <template>
   <div class="latest-projects">
-    <h2 class="latest-projects__title">Latest projects</h2>
+    <h2 class="latest-projects__title heading">Latest projects</h2>
     <ul class="latest-projects__list">
       <li v-for="(item, index) in latestProjectsArray" :key="index" class="latest-projects__item">
         <div class="latest-projects__block-info">
@@ -86,12 +86,14 @@ export default {
 </template>
 
 <style scoped>
-.latest-projects__title {
-  font-weight: var(--heading-font-weight);
-  font-size: var(--heading-font-size);
-  line-height: var(--heading-line-height);
-  color: var(--heading-color);
-  margin-bottom: var(--heading-margin-bottom);
+
+.heading {
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2e2e48;
+  margin-bottom: 22px;
 }
 
 .latest-projects__list {
@@ -158,6 +160,12 @@ export default {
 }
 
 @media screen and (min-width: 1024px){
+  .heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
 
   .latest-projects__list {
     grid-template-columns: 1fr 1fr;

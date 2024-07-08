@@ -350,6 +350,7 @@ export default {
         }
 
         .profile-info__heading {
+          font-family: "Outfit";
           line-height: 40px;
           font-size: 32px;
           font-weight: 500;
@@ -361,6 +362,7 @@ export default {
         padding: 0 38px;
         margin-bottom: 24px;
         .description__span {
+          font-family: "Outfit";
           text-align: center;
           display: block;
           line-height: 24px;

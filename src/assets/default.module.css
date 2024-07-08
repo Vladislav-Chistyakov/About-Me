@@ -16,17 +16,4 @@
     --grey-two: #78819a;
     --grey-three: #47516b;
     --grey-four: #2e2e48;
-
-    --heading-font-weight: 500;
-    --heading-font-size: 24px;
-    --heading-line-height: 32px;
-    --heading-margin-bottom: 22px;
-
-
-    @media screen and (min-width: 1024px) {
-        --heading-font-weight: 500;
-        --heading-font-size: 24px;
-        --heading-line-height: 32px;
-        --heading-margin-bottom: 32px;
-    }
 }
