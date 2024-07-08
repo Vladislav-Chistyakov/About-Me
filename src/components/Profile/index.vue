@@ -133,7 +133,7 @@ export default {
             </svg>
             <div class="socials__block">
               <span class="socials__span text-regular">Instagram</span>
-              <a class="socials__link text-medium" href="#">@anurag.yadav.007</a>
+              <a class="socials__link text-medium" target="_blank" href="https://www.instagram.com/">@anurag.yadav.007</a>
             </div>
           </li>
 
@@ -144,7 +144,7 @@ export default {
             </svg>
             <div class="socials__block">
               <span class="socials__span text-regular">Github</span>
-              <a class="socials__link text-medium">@anuragyadav365</a>
+              <a class="socials__link text-medium" target="_blank" href="https://github.com/Vladislav-Chistyakov/About-Me">@anuragyadav365</a>
             </div>
           </li>
 
@@ -155,7 +155,7 @@ export default {
             </svg>
             <div class="socials__block">
               <span class="socials__span text-regular">Twitter</span>
-              <a class="socials__link text-medium">@anuragmnp</a>
+              <a class="socials__link text-medium" target="_blank" href="https://x.com/?lang=ru">@anuragmnp</a>
             </div>
           </li>
 
@@ -166,7 +166,7 @@ export default {
             </svg>
             <div class="socials__block">
               <span class="socials__span text-regular">Linkedin</span>
-              <a class="socials__link text-medium">@anuragyadav</a>
+              <a class="socials__link text-medium" target="_blank" href="https://ru.linkedin.com/">@anuragyadav</a>
             </div>
           </li>
         </ul>
