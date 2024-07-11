@@ -190,29 +190,30 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
-  .achievements__long-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    min-height: 24px;
-    background: #FFFFFF;
-    border-radius: 100%;
-    .achievements__long-circle-center {
-      border-radius: 100%;
-      background: #2E2E48;
-      min-height: 8px;
-      width: 8px;
-    }
-  }
+.achievements__long-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  min-height: 24px;
+  background: #FFFFFF;
+  border-radius: 100%;
+}
 
-  .achievements__long-line {
-    display: block;
-    width: 1px;
-    background: #F7F9FC;
-    height: 100%;
-  }
+.achievements__long-line {
+  display: block;
+  width: 1px;
+  background: #F7F9FC;
+  height: 100%;
+}
+
+.achievements__long-circle-center {
+  border-radius: 100%;
+  background: #2E2E48;
+  min-height: 8px;
+  width: 8px;
 }
 
 @media screen and (min-width: 1024px){

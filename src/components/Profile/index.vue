@@ -196,212 +196,165 @@ export default {
   .profile-block {
     width: fit-content;
     background: #F7F9FC;
-    .profile-block__wrapper {
-      padding: 16px;
+  }
 
-      .profile-info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 16px;
+  .profile-block__wrapper {
+    padding: 16px;
+  }
 
-        .profile-info__img {
-          display: block;
-          max-width: 120px;
-          margin-bottom: 16px;
-        }
+  .profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
 
-        .profile-info__heading {
-          font-family: "Outfit";
-          line-height: 40px;
-          font-size: 32px;
-          font-weight: 500;
-          color: #2E2E48;
-        }
-      }
+  .profile-info__img {
+    display: block;
+    max-width: 120px;
+    margin-bottom: 16px;
+  }
 
-      .description {
-        padding: 0 38px;
-        margin-bottom: 24px;
-        .description__span {
-          font-family: "Outfit";
-          text-align: center;
-          display: block;
-          line-height: 24px;
-          font-size: 18px;
-        }
-      }
+  .profile-info__heading {
+    font-family: "Outfit";
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #2E2E48;
+  }
 
-      .contacts-list {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-        min-width: 270px;
-        margin-bottom: 32px;
+  .description {
+    padding: 0 38px;
+    margin-bottom: 24px;
+  }
 
-        .contacts-list__item {
-          display: flex;
-          flex-direction: row;
-          gap: 16px;
-          align-items: center;
-        }
+  .description__span {
+    font-family: "Outfit";
+    text-align: center;
+    display: block;
+    line-height: 24px;
+    font-size: 18px;
+  }
 
-        .contacts-list__svg {
-          min-width: 33px;
-          min-height: 33px;
-        }
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 270px;
+    margin-bottom: 32px;
+  }
 
-        .contacts-list__block-contact {
-          display: flex;
-          flex-direction: column;
-          gap: 4px;
-        }
+  .contacts-list__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
 
-        .contacts-list__description {
-        }
+  .contacts-list__block-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
 
-        .contacts-list__link {
-          word-break: break-all;
-        }
-      }
+  .contacts-list__link {
+    word-break: break-all;
+  }
 
-      .socials {
-        margin-bottom: 32px;
+  .socials {
+    margin-bottom: 32px;
+  }
 
-        .socials__heading {
-          margin-bottom: 20px;
-        }
+  .socials__heading {
+    margin-bottom: 20px;
+  }
 
-        .socials__list {
-          display: flex;
-          flex-direction: column;
-          gap: 24px;
-        }
+  .socials__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-        .socials__item {
-          display: flex;
-          flex-direction: row;
-          gap: 16px;
-          align-items: center;
-        }
+  .socials__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
 
-        .mail {
-          background-image: url("../../assets/profile/contacts/mail.svg");
-        }
+  .socials__block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
 
-        .site {
-          background-image: url("../../assets/profile/contacts/site.svg");
-        }
+  .learning {
+    margin-bottom: 32px;
+  }
 
-        .phone {
-          background-image: url("../../assets/profile/contacts/mobile.svg");
-        }
+  .learning__heading {
+    margin-bottom: 20px;
+  }
 
-        .location {
-          background-image: url("../../assets/profile/contacts/mail.svg");
-        }
+  .learning__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-        .socials__block {
-          display: flex;
-          flex-direction: column;
-          gap: 4px;
-        }
+  .learning__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+  }
 
-        .socials__span {
-        }
+  .learning__block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
 
-        .socials__link {
-        }
-      }
+  .hobbies__heading {
+    margin-bottom: 16px;
+  }
 
-      .learning {
-        margin-bottom: 32px;
+  .hobbies__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-        .learning__heading {
-          margin-bottom: 20px;
-        }
-
-        .learning__list {
-          display: flex;
-          flex-direction: column;
-          gap: 24px;
-        }
-
-        .learning__item {
-          display: flex;
-          flex-direction: row;
-          gap: 16px;
-          align-items: center;
-        }
-
-        .learning__svg {
-          border-radius: 6px;
-        }
-
-        .learning__block {
-          display: flex;
-          flex-direction: column;
-          gap: 4px;
-        }
-
-        .learning__span {
-        }
-
-        .learning__description {
-        }
-      }
-
-      .hobbies {
-
-        .hobbies__heading {
-          margin-bottom: 16px;
-        }
-
-        .hobbies__list {
-          display: flex;
-          flex-direction: column;
-          gap: 24px;
-        }
-
-        .hobbies__item {
-          display: flex;
-          flex-direction: row;
-          gap: 16px;
-          align-items: center;
-        }
-
-        .hobbies__svg {
-        }
-
-        .hobbies__description {
-        }
-      }
-    }
+  .hobbies__item {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
   }
 
   @media screen and (min-width: 1024px) {
-    .profile-block {
-      .profile-block__wrapper {
-        max-width: 380px;
-        padding: 48px;
+    .profile-block__wrapper {
+      max-width: 380px;
+      padding: 48px;
+    }
 
-        .profile-info {
-          display: block;
-          margin-bottom: 32px;
-          .profile-info__img {
-            max-width: fit-content;
-          }
-        }
+    .profile-info {
+      display: block;
+      margin-bottom: 32px;
+    }
 
-        .description {
-          padding: 0;
-          margin-bottom: 10px;
-          .description__span {
-            text-align: start;
-          }
-        }
-      }
+    .profile-info__img {
+      max-width: fit-content;
+    }
+
+    .description {
+      padding: 0;
+      margin-bottom: 10px;
+    }
+
+    .description__span {
+      text-align: start;
     }
   }
 </style>
