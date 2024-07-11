@@ -1,5 +1,4 @@
 <script>
-
 import AchivementsElement from "./AchivementsElement.vue";
 
 const achievementsArray = [

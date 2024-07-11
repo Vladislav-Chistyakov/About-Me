@@ -3,11 +3,11 @@ export default {
   name: "AchivementsElement",
   props: {
     present: {
-      type: String,
+      type: Boolean,
       required: true
     },
     date: {
-      type: String,
+      type: [String, null],
       required: true
     },
     location: {

@@ -1,5 +1,4 @@
 <script>
-
 import CertificatesAndAwardsElement from "./CertificatesAndAwardsElement.vue";
 
 const certificatesAndAwards = [

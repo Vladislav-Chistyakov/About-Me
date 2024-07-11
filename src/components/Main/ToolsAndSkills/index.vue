@@ -1,4 +1,5 @@
 <script>
+import ToolsAndSkillsElement from "./ToolsAndSkillsElement.vue";
 
 const toolsAndSkillsArray = [
   {
@@ -51,6 +52,7 @@ const toolsAndSkillsArray = [
 ]
 export default {
   name: 'index',
+  components: { ToolsAndSkillsElement },
   data () {
     return {
       toolsAndSkillsArray: toolsAndSkillsArray,
@@ -63,13 +65,12 @@ export default {
   <div class="tools-and-skills">
     <h2 class="tools-and-skills__title heading">Tools/Skills</h2>
     <ul class="tools-and-skills__list">
-      <li class="tools-and-skills__item" v-for="(item, index) in toolsAndSkillsArray" :key="index">
-        <img :src="item.icon" :alt="item.company" class="tools-and-skills__icon" />
-        <div class="tools-and-skills__info">
-          <strong class="tools-and-skills__strong">{{ item.name }}</strong>
-          <p class="tools-and-skills__description">{{ item.description }}</p>
-        </div>
-      </li>
+      <ToolsAndSkillsElement v-for="(item, index) in toolsAndSkillsArray"
+                      :key="index"
+                      :description="item.description"
+                      :name="item.name"
+                      :company="item.name"
+                      :icon="item.icon" />
     </ul>
   </div>
 </template>
@@ -93,57 +94,18 @@ export default {
   gap: 8px;
 }
 
-.tools-and-skills__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 28px;
-  background-color: #F7F9FC;
-}
-
-.tools-and-skills__icon {
-  display: flex;
-}
-
-.tools-and-skills__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.tools-and-skills__strong {
-  font-size: 14px;
-  line-height: 18px;
-  color: #2E2E48;
-}
-
-.tools-and-skills__description {
-  font-size: 10px;
-  line-height: 14px;
-  color: #79819A;
-}
-
 @media screen and (min-width: 576px){
   .tools-and-skills__list {
     grid-template-columns: 1fr 1fr;
   }
-
-  .tools-and-skills__item {
-    padding: 22px;
-  }
 }
+
 @media screen and (min-width: 768px){
   .tools-and-skills__list {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
-  .tools-and-skills__item {
-    padding: 20px;
-  }
 }
+
 @media screen and (min-width: 1024px){
   .heading {
     font-weight: 500;
@@ -158,21 +120,6 @@ export default {
     border-radius: 6px;
     overflow: hidden;
     gap: 8px;
-  }
-
-  .tools-and-skills__item {
-    flex: 1 1 calc(33.33% - 16px);
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    justify-content: center;
-    align-items: center;
-    padding: 13px;
-    background-color: #F7F9FC;
-  }
-
-  .tools-and-skills__item:nth-child(n+4) {
-    flex-basis: calc(20% - 16px);
   }
 }
 
