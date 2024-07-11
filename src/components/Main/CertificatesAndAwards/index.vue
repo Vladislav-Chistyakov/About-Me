@@ -1,5 +1,7 @@
 <script>
 
+import CertificatesAndAwardsElement from "./CertificatesAndAwardsElement.vue";
+
 const certificatesAndAwards = [
   {
     name: 'freeCodeCamp',
@@ -16,6 +18,7 @@ const certificatesAndAwards = [
 ]
 export default {
   name: 'index',
+  components: {CertificatesAndAwardsElement},
   data () {
     return {
       certificatesAndAwards: certificatesAndAwards,
@@ -28,16 +31,13 @@ export default {
   <div class="certificates-and-awards">
     <h2 class="certificates-and-awards__title heading">Certificates & Awards</h2>
     <ul class="certificates-and-awards__list">
-      <li v-for="(item, index) in certificatesAndAwards" :key="index" class="certificates-and-awards__item">
-        <div class="certificates-and-awards__block">
-          <img :src="item.icon" :alt="item.name" class="certificates-and-awards__icon" />
-          <div class="certificates-and-awards__info">
-            <p class="certificates-and-awards__info-description">{{ item.name }}</p>
-            <strong class="certificates-and-awards__info-strong">{{ item.company }}</strong>
-          </div>
-        </div>
-        <p class="certificates-and-awards__dade">{{ item.date }}</p>
-      </li>
+      <CertificatesAndAwardsElement
+          v-for="(item, index) in certificatesAndAwards"
+          :key="index"
+          :date="item.date"
+          :company="item.company"
+          :name="item.name"
+          :icon="item.icon" />
     </ul>
   </div>
 </template>
@@ -59,58 +59,7 @@ export default {
   gap: 8px;
 }
 
-.certificates-and-awards__item {
-  background-color: #F7F9FC;
-  padding: 15px 23px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 12px;
-}
 
-.certificates-and-awards__item:first-child {
-  border-radius: 6px 6px 0 0;
-}
-
-.certificates-and-awards__item:last-child {
-  border-radius: 0 0 6px 6px;
-}
-
-.certificates-and-awards__block {
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-}
-
-.certificates-and-awards__icon {
-  display: flex;
-}
-
-.certificates-and-awards__info {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.certificates-and-awards__info-strong {
-  font-size: 15px;
-  line-height: 19px;
-  color: #2E2E48;
-}
-
-.certificates-and-awards__info-description {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 17px;
-  color: #79819A;
-}
-
-.certificates-and-awards__dade {
-  font-size: 12px;
-  line-height: 16px;
-  color: #47516B;
-}
 
 @media screen and (min-width: 1024px){
   .heading {
