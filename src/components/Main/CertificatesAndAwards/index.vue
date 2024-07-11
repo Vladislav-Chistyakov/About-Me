@@ -5,13 +5,13 @@ const certificatesAndAwards = [
   {
     name: 'freeCodeCamp',
     company: 'Responsive Web Design',
-    icon: '/src/assets/main/certificates/responsiveWebDesign.svg',
+    icon: '/main/certificates/responsiveWebDesign.svg',
     date: 'Dec 2021 - Feb 2022'
   },
   {
     name: 'Data Strcture & Algorithms',
     company: 'Google',
-    icon: '/src/assets/main/certificates/google.svg',
+    icon: '/main/certificates/google.svg',
     date: 'Mar 2021 - Jun 2021'
   }
 ]

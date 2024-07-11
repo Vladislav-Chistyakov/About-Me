@@ -5,48 +5,48 @@ const toolsAndSkillsArray = [
   {
     name: 'Figma',
     description: 'Web UI Design, Prototyping',
-    icon: '/src/assets/main/skills/figma.svg'
+    icon: '/main/skills/figma.svg'
 
   },
   {
     name: 'Java',
     description: 'Software Development',
-    icon: '/src/assets/main/skills/java.svg'
+    icon: '/main/skills/java.svg'
 
   },
   {
     name: 'Python',
     description: 'Design workspace',
-    icon: '/src/assets/main/skills/python.svg'
+    icon: '/main/skills/python.svg'
   },
   {
     name: 'HTML 5',
     description: 'Structural Design',
-    icon: '/src/assets/main/skills/html.svg'
+    icon: '/main/skills/html.svg'
 
   },
   {
     name: 'CSS 3',
     description: 'Style Design',
-    icon: '/src/assets/main/skills/css.svg'
+    icon: '/main/skills/css.svg'
 
   },
   {
     name: 'Wordpress',
     description: 'Web development',
-    icon: '/src/assets/main/skills/wordpress.svg'
+    icon: '/main/skills/wordpress.svg'
 
   },
   {
     name: 'VS Code',
     description: 'Code editor',
-    icon: '/src/assets/main/skills/vs.svg'
+    icon: '/main/skills/vs.svg'
 
   },
   {
     name: 'Notion',
     description: 'Project managment',
-    icon: '/src/assets/main/skills/notion.svg'
+    icon: '/main/skills/notion.svg'
 
   }
 ]

@@ -5,18 +5,18 @@ const latestProjectsArray = [
   {
     name: 'Alexa Dev Community Landing Page',
     description: 'Web UI design for alexa developers comunity',
-    icon: '/src/assets/main/latestProjects/figma.svg',
+    icon: '/main/latestProjects/figma.svg',
     labelLink: 'https://figma.com',
     link: 'https://www.figma.com/design/v3aL1mm9ha6234w4fIi19N/MARVEL-STUDIOS?node-id=2-6&t=P5x9FNrtceyb6xOf-0',
-    iconLink: '/src/assets/main/latestProjects/figma-link.svg'
+    iconLink: '/main/latestProjects/figma-link.svg'
   },
   {
     name: 'Portfolio Webpage',
     description: 'Personal Portfolio webpage with resume and blog',
-    icon: '/src/assets/main/latestProjects/webpage.svg',
+    icon: '/main/latestProjects/webpage.svg',
     labelLink: 'https://anuragyadav365.github.io/',
     link: 'https://anuragyadav365.github.io/portfolio.html',
-    iconLink: '/src/assets/main/latestProjects/site-link.svg'
+    iconLink: '/main/latestProjects/site-link.svg'
   }
 ]
 export default {

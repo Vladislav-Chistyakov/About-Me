@@ -4,21 +4,21 @@ import Educationelement from "./Educationelement.vue";
 const educationArray = [
   {
     name: 'Chandigarh University',
-    icon: '/src/assets/main/education/chandigarh.png',
+    icon: '/main/education/chandigarh.png',
     description: 'Bachelor in Computer Science Engineering',
     date: '2020 - 2024',
     percentage: '9 CGPA'
   },
   {
     name: 'Suditi Global Academy',
-    icon: '/src/assets/main/education/akanksha.png',
+    icon: '/main/education/akanksha.png',
     description: 'Intermediate XI - XII (CBSE)',
     date: '2018 - 2020',
     percentage: '85%'
   },
   {
     name: 'Akanksha Global Acadmey',
-    icon: '/src/assets/main/education/suditi.png',
+    icon: '/main/education/suditi.png',
     description: 'High School IX - X (CBSE)',
     date: '2016 - 2018',
     percentage: '92%'

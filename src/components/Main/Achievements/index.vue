@@ -1,6 +1,6 @@
 <script>
+
 import AchivementsElement from "./AchivementsElement.vue";
-import { images } from "./images.js";
 
 const achievementsArray = [
   {
@@ -8,6 +8,7 @@ const achievementsArray = [
     date: null,
     location: 'Chandigarh',
     company: 'Alexa Dev Community',
+    icon: '/main/achievements/alexa.svg',
     speciality: 'Graphic Designer',
     description: 'Creatively Designing and Developing web UI for Chandigarh University’s Alexa Developer Community, upcoming big launch of full website. '
   },
@@ -16,6 +17,7 @@ const achievementsArray = [
     date: 'Oct 2021 - Nov 2021',
     location: 'Online',
     company: 'Github',
+    icon: '/main/achievements/github.svg',
     speciality: 'Hacktoberfest Contributor',
     description: 'Contributed 8 PR’s in various open source projects. Great experience and learning alot about working with Github and open-source. Connecting with developers'
   },
@@ -24,6 +26,7 @@ const achievementsArray = [
     date: 'Jan 2021 - March 2021',
     location: 'Online',
     company: 'Winter of Code',
+    icon: '/main/achievements/WOC.svg',
     speciality: 'Contributor',
     description: 'Overwhelming to be a part of DSC NSEC project - DSC NSEC Algorithms for Winter of Code 2020. First introduction to Git and Github. How github is used by most of the programmers in order to manage the projects.'
   },
@@ -32,6 +35,7 @@ const achievementsArray = [
     date: 'Oct 2020 - Dec 2020',
     location: 'Online',
     company: 'Google',
+    icon: '/main/achievements/google.svg',
     speciality: '30Days of Google Cloud',
     description: 'Hands on practice on Google Cloud Platform - the tool that powers apps like Google Search, Gmail and YouTube.\n' +
         'As part of the program had learned the concepts like computing, application development, big data & machine learning using cloud.'
@@ -42,8 +46,7 @@ export default {
   components: {AchivementsElement},
   data () {
     return {
-      achievementsArray: achievementsArray,
-      images: images
+      achievementsArray: achievementsArray
     }
   }
 }
@@ -58,11 +61,10 @@ export default {
                           :description="item.description"
                           :speciality="item.speciality"
                           :company="item.company"
-                          :icon="images[index]"
+                          :icon="item.icon"
                           :location="item.location"
                           :date="item.date"
                           :present="item.present" />
-      {{ images[0] }} || {{ images }}
     </ul>
   </div>
 </template>
